@@ -10,12 +10,13 @@ Supporte les versions Française et Anglaise du CCNA3
 > Certaines questions sont manquantes dans la version française
 
 ## Structure du projet 
+```
 .
 ├── manifest.json         # Configuration de l'extension
 ├── background.js        # Logique de recherche et gestion des raccourcis
 └── database/           # Dossier contenant vos fichiers .html et le .json final
   └── database.json    # Fichier contenant les questions/réponses
-
+```
 ## Installation
 
 ### Prérequis
