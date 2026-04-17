@@ -1,0 +1,1762 @@
+
+<!DOCTYPE html>
+<html lang="fr-FR" class="s-light site-s-light">
+
+<head>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Modules 9 - 12: Examen d'optimisation, de surveillance et de dépannage des réseaux Réponses</title>
+<link data-rocket-preload as="style" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600%2C700%7CPoppins%3A400%2C500%2C600%2C700&#038;display=swap" rel="preload">
+<link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600%2C700%7CPoppins%3A400%2C500%2C600%2C700&#038;display=swap" media="print" onload="this.media=&#039;all&#039;" rel="stylesheet">
+<noscript data-wpr-hosted-gf-parameters=""><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C500%2C600%2C700%7CPoppins%3A400%2C500%2C600%2C700&#038;display=swap"></noscript><link rel="preload" as="font" href="https://ccnareponses.com/wp-content/themes/smart-mag/css/icons/fonts/ts-icons.woff2?v3.2" type="font/woff2" crossorigin="anonymous" />
+<meta name='robots' content='max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" href="https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/" hreflang="fr" />
+<link rel="alternate" href="https://ccnareponses.com/de/kontrollpruefung-optimieren-ueberwachen-und-fehlerbehebung-in-netzwerken-antworten/" hreflang="de" />
+<link rel="canonical" href="https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/">
+<meta name="description" content="Examen Checkpoint: optimisation, de surveillance et de dépannage. Modules 9 et 12 du programme d&#039;études CCNA3 - Mise en réseau, sécurité et automatisation des entreprises (ENSA) v7.0 Réponses Français">
+<meta property="og:title" content="Modules 9 - 12: Examen d&#039;optimisation, de surveillance et de dépannage des réseaux Réponses">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020.jpg">
+<meta property="og:image:width" content="475">
+<meta property="og:image:height" content="319">
+<meta property="og:image:alt" content="2022-05-09_221020">
+<meta property="og:description" content="Examen Checkpoint: optimisation, de surveillance et de dépannage. Modules 9 et 12 du programme d&#039;études CCNA3 - Mise en réseau, sécurité et automatisation des entreprises (ENSA) v7.0 Réponses Français">
+<meta property="og:url" content="https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="CCNA Réponses - Questions et réponses aux Examens">
+<meta property="article:published_time" content="2022-05-09T17:13:32+02:00">
+<meta property="article:modified_time" content="2024-12-22T09:06:43+01:00">
+<meta property="og:updated_time" content="2024-12-22T09:06:43+01:00">
+<meta property="article:section" content="CCNA 3">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020.jpg">
+<link rel='dns-prefetch' href='//scripts.scriptwrapper.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://ccnareponses.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F&#038;lang=fr" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://ccnareponses.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F&#038;format=xml&#038;lang=fr" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://ccnareponses.com/wp-includes/css/dist/block-library/style.min.css?ver=b6451f6a787397382a66ce86af772bff' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='wpdm-front-bootstrap-css' href='https://ccnareponses.com/wp-content/plugins/download-manager/assets/bootstrap/css/bootstrap.min.css?ver=b6451f6a787397382a66ce86af772bff' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='wpdm-front-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/download-manager/assets/css/front.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='emqa-style-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/emo-questalk-pro/templates/assets/css/style.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='emqa-akismet-button-report-spam-style-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/emo-questalk-pro/assets/css/emqa-akismet-button-report-spam.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='no-category-base-wpml-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/no-category-base-wpml/assets/css/frontend.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='dashicons-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-includes/css/dashicons.min.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='to-top-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/to-top/public/css/to-top-public.css?ver=1776302392' type='text/css' media='all' />
+<link rel='stylesheet' id='wpProQuiz_front_style-css' href='https://ccnareponses.com/wp-content/plugins/wp-pro-quiz/css/wpProQuiz_front.min.css?ver=0.38' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='emqa_leaderboard-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/emo-questalk-pro/templates/assets/css/leaderboard.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='wpdiscuz-frontend-css-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/wpdiscuz/themes/default/style.css?ver=1776302414' type='text/css' media='all' />
+<style id='wpdiscuz-frontend-css-inline-css' type='text/css'>
+ #wpdcom .wpd-blog-administrator .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-administrator .wpd-comment-author, #wpdcom .wpd-blog-administrator .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-administrator{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-administrator .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-administrator .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-administrator .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-editor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-editor .wpd-comment-author, #wpdcom .wpd-blog-editor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-editor{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-editor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-editor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-editor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-author .wpd-comment-author, #wpdcom .wpd-blog-author .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-contributor .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-contributor .wpd-comment-author, #wpdcom .wpd-blog-contributor .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-contributor .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-contributor .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-contributor .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-subscriber .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-subscriber .wpd-comment-author, #wpdcom .wpd-blog-subscriber .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-subscriber .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-subscriber .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom .wpd-blog-post_author .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-post_author .wpd-comment-author, #wpdcom .wpd-blog-post_author .wpd-comment-author a{color:#00B38F}#wpdcom .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply .wpd-comment-wrap.wpd-blog-post_author{border-left:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-bottom-color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-post_author .wpd-comment-subheader{border-top:1px dashed #00B38F}#wpdcom.wpd-layout-3 .wpd-reply .wpd-blog-post_author .wpd-comment-right{border-left:1px solid #00B38F}#wpdcom .wpd-blog-guest .wpd-comment-label{color:#ffffff;background-color:#00B38F;border:none}#wpdcom .wpd-blog-guest .wpd-comment-author, #wpdcom .wpd-blog-guest .wpd-comment-author a{color:#00B38F}#wpdcom.wpd-layout-3 .wpd-blog-guest .wpd-comment-subheader{border-top:1px dashed #00B38F}#comments, #respond, .comments-area, #wpdcom{}#wpdcom .ql-editor > *{color:#777777}#wpdcom .ql-editor::before{}#wpdcom .ql-toolbar{border:1px solid #DDDDDD;border-top:none}#wpdcom .ql-container{border:1px solid #DDDDDD;border-bottom:none}#wpdcom .wpd-form-row .wpdiscuz-item input[type="text"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="email"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="url"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="color"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="date"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="datetime-local"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="month"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="number"], #wpdcom .wpd-form-row .wpdiscuz-item input[type="time"], #wpdcom textarea, #wpdcom select{border:1px solid #DDDDDD;color:#777777}#wpdcom .wpd-form-row .wpdiscuz-item textarea{border:1px solid #DDDDDD}#wpdcom input::placeholder, #wpdcom textarea::placeholder, #wpdcom input::-moz-placeholder, #wpdcom textarea::-webkit-input-placeholder{}#wpdcom .wpd-comment-text{color:#777777}#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpd-thread-info.wpd-reviews-tab svg{fill:#00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings{border-bottom:2px solid #00B38F}#wpdcom .wpd-thread-head .wpdiscuz-user-settings:hover{color:#00B38F}#wpdcom .wpd-comment .wpd-follow-link:hover{color:#00B38F}#wpdcom .wpd-comment-status .wpd-sticky{color:#00B38F}#wpdcom .wpd-thread-filter .wpdf-active{color:#00B38F;border-bottom-color:#00B38F}#wpdcom .wpd-comment-info-bar{border:1px dashed #33c3a6;background:#e6f8f4}#wpdcom .wpd-comment-info-bar .wpd-current-view i{color:#00B38F}#wpdcom .wpd-filter-view-all:hover{background:#00B38F}#wpdcom .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}#wpdcom .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover, .wpdiscuz-rating:not(:checked) > label:hover ~ label{}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color:#FFED85}#wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpdcom .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-active-star, #wpdcom .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{color:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts svg .wpd-star{fill:#DDDDDD}#wpd-post-rating .wpd-rating-wrap .wpd-rate-starts:hover svg .wpd-star{fill:#FFED85}#wpd-post-rating.wpd-not-rated .wpd-rating-wrap .wpd-rate-starts svg:hover ~ svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-star{fill:#DDDDDD}.wpdiscuz-post-rating-wrap .wpd-rating .wpd-rating-wrap .wpd-rating-stars svg .wpd-active{fill:#FFD700}#wpdcom .wpd-comment .wpd-follow-active{color:#ff7a00}#wpdcom .page-numbers{color:#555;border:#555 1px solid}#wpdcom span.current{background:#555}#wpdcom.wpd-layout-1 .wpd-new-loaded-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap > .wpd-comment-right{background:transparent}#wpdcom.wpd-layout-2 .wpd-new-loaded-comment.wpd-comment.wpd-reply > .wpd-comment-wrap{background:#FFFAD6}#wpdcom.wpd-layout-3 .wpd-new-loaded-comment.wpd-comment > .wpd-comment-wrap > .wpd-comment-right{background:#FFFAD6}#wpdcom .wpd-follow:hover i, #wpdcom .wpd-unfollow:hover i, #wpdcom .wpd-comment .wpd-follow-active:hover i{color:#00B38F}#wpdcom .wpdiscuz-readmore{cursor:pointer;color:#00B38F}.wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label{color:#DDDDDD}.wpd-wrapper .wpd-list-item.wpd-active{border-top:3px solid #00B38F}#wpdcom.wpd-layout-2 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-wrap{border-left:3px solid #FFFAD6}#wpdcom.wpd-layout-3 .wpd-comment.wpd-reply.wpd-unapproved-comment .wpd-comment-right{border-left:1px solid #FFFAD6}#wpdcom .wpd-prim-button{background-color:#07B290;color:#FFFFFF}#wpdcom .wpd_label__check i.wpdicon-on{color:#07B290;border:1px solid #83d9c8}#wpd-bubble-wrapper #wpd-bubble-all-comments-count{color:#1DB99A}#wpd-bubble-wrapper > div{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message{background-color:#1DB99A}#wpd-bubble-wrapper > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}#wpd-bubble-wrapper.wpd-right-corner > #wpd-bubble #wpd-bubble-add-message::before{border-left-color:#1DB99A;border-right-color:#1DB99A}.wpd-inline-icon-wrapper path.wpd-inline-icon-first{fill:#1DB99A}.wpd-inline-icon-count{background-color:#1DB99A}.wpd-inline-icon-count::before{border-right-color:#1DB99A}.wpd-inline-form-wrapper::before{border-bottom-color:#1DB99A}.wpd-inline-form-question{background-color:#1DB99A}.wpd-inline-form{background-color:#1DB99A}.wpd-last-inline-comments-wrapper{border-color:#1DB99A}.wpd-last-inline-comments-wrapper::before{border-bottom-color:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments{background:#1DB99A}.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:hover,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:active,.wpd-last-inline-comments-wrapper .wpd-view-all-inline-comments:focus{background-color:#1DB99A}#wpdcom .ql-snow .ql-tooltip[data-mode="link"]::before{content:"Enter link:"}#wpdcom .ql-snow .ql-tooltip.ql-editing a.ql-action::after{content:"Enregistrer"}.comments-area{width:auto}
+/*# sourceURL=wpdiscuz-frontend-css-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='wpdiscuz-fa-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=1776302414' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdiscuz-combo-css-css' href='https://ccnareponses.com/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz-combo.min.css?ver=b6451f6a787397382a66ce86af772bff' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='smartmag-core-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/themes/smart-mag/style.css?ver=1776302392' type='text/css' media='all' />
+<style id='smartmag-core-inline-css' type='text/css'>
+:root { --c-main: #fa5005;
+--c-main-rgb: 250,80,5;
+--text-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--body-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--ui-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--title-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--h-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--tertiary-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--title-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--h-font: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+--title-fw-bold: 600;
+--excerpt-size: 14px; }
+.post-title:not(._) { font-weight: 500; }
+.smart-head-main { --c-shadow: rgba(0,0,0,0.05); }
+.smart-head-main .smart-head-top { --head-h: 38px; }
+.s-dark .smart-head-main .smart-head-top,
+.smart-head-main .s-dark.smart-head-top { background-color: #0a0505; }
+.smart-head-main .smart-head-mid { --head-h: 76px; }
+.navigation-main .menu > li > a { font-weight: bold; }
+.navigation-small { font-family: var(--body-font); }
+.smart-head-main .offcanvas-toggle { transform: scale(0.75); }
+.block-head .heading { font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Arial, sans-serif; }
+.block-head-e2 .heading { font-weight: 600; color: var(--c-main); }
+.entry-content { font-size: 16px; line-height: 1.8; }
+
+
+/*# sourceURL=smartmag-core-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='smartmag-magnific-popup-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/themes/smart-mag/css/lightbox.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='smartmag-icons-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/themes/smart-mag/css/icons/icons.css?ver=1776302392' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='emqa-choose-style-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/emo-questalk-pro/templates/styles/helpdesk/style.css?ver=1776302392' type='text/css' media='all' />
+
+<script type="text/javascript" src="https://ccnareponses.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://ccnareponses.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://ccnareponses.com/wp-content/plugins/download-manager/assets/bootstrap/js/bootstrap.bundle.min.js?ver=b6451f6a787397382a66ce86af772bff" id="wpdm-front-bootstrap-js"></script>
+<script type="text/javascript" id="wpdm-frontjs-js-extra">
+/* <![CDATA[ */
+var wpdm_url = {"home":"https://ccnareponses.com/","site":"https://ccnareponses.com/","ajax":"https://ccnareponses.com/wp-admin/admin-ajax.php"};
+var wpdm_js = {"spinner":"\u003Ci class=\"fas fa-sun fa-spin\"\u003E\u003C/i\u003E","client_id":"f6279233797e7dd12c445b97f2d67979"};
+var wpdm_strings = {"pass_var":"Mot de passe v\u00e9rifi\u00e9\u00a0!","pass_var_q":"Veuillez cliquer sur le bouton suivant pour lancer le t\u00e9l\u00e9chargement.","start_dl":"Lancer le t\u00e9l\u00e9chargement"};
+//# sourceURL=wpdm-frontjs-js-extra
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/download-manager/assets/js/front.js?ver=1776302393" id="wpdm-frontjs-js"></script>
+<script data-minify="1" type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/emo-questalk-pro/assets/js/emqa-akismet-button-report-spam.js?ver=1776302393" id="emqa-akismet-button-report-spam-script-js"></script>
+<script type="text/javascript" id="to-top-js-extra">
+/* <![CDATA[ */
+var to_top_options = {"scroll_offset":"100","icon_opacity":"50","style":"icon","icon_type":"dashicons-arrow-up-alt2","icon_color":"#ffffff","icon_bg_color":"#000000","icon_size":"32","border_radius":"5","image":"https://ccnareponses.com/wp-content/plugins/to-top/admin/images/default.png","image_width":"65","image_alt":"","location":"bottom-right","margin_x":"20","margin_y":"200","show_on_admin":"0","enable_autohide":"0","autohide_time":"2","enable_hide_small_device":"0","small_device_max_width":"640","reset":"0"};
+//# sourceURL=to-top-js-extra
+/* ]]> */
+</script>
+<script data-minify="1" async type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/to-top/public/js/to-top-public.js?ver=1776302393" id="to-top-js"></script>
+<script data-minify="1" type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/sphere-post-views/assets/js/post-views.js?ver=1776302393" id="sphere-post-views-js"></script>
+<script type="text/javascript" id="sphere-post-views-js-after">
+/* <![CDATA[ */
+var Sphere_PostViews = {"ajaxUrl":"https:\/\/ccnareponses.com\/wp-admin\/admin-ajax.php?sphere_post_views=1","sampling":0,"samplingRate":10,"repeatCountDelay":0,"postID":2244,"token":"6eaa56e23d"}
+//# sourceURL=sphere-post-views-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" async="async" fetchpriority="high" data-noptimize="1" data-cfasync="false" src="https://scripts.scriptwrapper.com/tags/3ae1b2ef-bb2c-4030-8ffa-6618855e2c2d.js" id="mv-script-wrapper-js"></script>
+<link rel="https://api.w.org/" href="https://ccnareponses.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://ccnareponses.com/wp-json/wp/v2/posts/2244" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ccnareponses.com/xmlrpc.php?rsd" />
+
+		<script>
+		var BunyadSchemeKey = 'bunyad-scheme';
+		(() => {
+			const d = document.documentElement;
+			const c = d.classList;
+			var scheme = localStorage.getItem(BunyadSchemeKey);
+			
+			if (scheme) {
+				d.dataset.origClass = c;
+				scheme === 'dark' ? c.remove('s-light', 'site-s-light') : c.remove('s-dark', 'site-s-dark');
+				c.add('site-s-' + scheme, 's-' + scheme);
+			}
+		})();
+		</script>
+		<meta name="generator" content="Elementor 4.0.2; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q7JZKGF90S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q7JZKGF90S');
+</script>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://ccnareponses.com/wp-content/uploads/2024/12/cropped-fa-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://ccnareponses.com/wp-content/uploads/2024/12/cropped-fa-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ccnareponses.com/wp-content/uploads/2024/12/cropped-fa-180x180.png" />
+<meta name="msapplication-TileImage" content="https://ccnareponses.com/wp-content/uploads/2024/12/cropped-fa-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.correct_answer {
+    font-weight: 600;
+color: #ff0000 !important;
+}
+.success {
+    color: #264b07!important;
+}
+.announce {
+    color: #2a3d47!important;
+}
+.emqa-comments, .emqa-answers, .emqa-question-status, .emqa-questions-footer {
+    display: none;}
+.emqa-question-item .avatar, .emqa-question-vote, .emqa-question-filter {
+    display: none;}
+.emqa-answers-login-title {display: none;}
+.single-emqa-question .emqa-question-content, .single-emqa-question .emqa-answer-content {
+    border: 0;
+    font-size: 16px;
+    border-width: 0;
+    padding: 0;
+}
+
+.single-emqa-question .emqa-question-item {
+    padding-left: 0;
+}
+.emqa-share {
+margin: 10px 0 0 0 !important;
+}
+.emqa-share ul {
+    margin: 8px 5px 14px 20px !important;
+}
+.emqa-question-footer {display: none;}
+.emqa-widget ul li a {
+    color: #0080ce;}
+.emqa-widget ul {
+    list-style-type: disclosure-closed;
+    margin-left: 15px;}
+th, td {border: 1px solid #696666;}
+.entry-content {
+    line-height: 1.8;
+}
+.tab_widget ul.wps_tabs li.active a {
+    color: #111 !important;
+}
+.tab_widget ul.wps_tabs li a {
+	color: #444 !important;}
+pre {border-left: none;
+    border-bottom: none;
+    border: 1px solid rgba(0, 0, 0, .1);}
+.post-content p {margin-bottom: 10px;}
+.post-content ul, .post-content ol {
+    margin: 8px 5px 14px 35px;
+}
+a:hover {
+    color: #fa5005;
+}		</style>
+		<meta name="generator" content="WordPress Download Manager 6.5.3" />
+		        <style>
+            /* WPDM Link Template Styles */        </style>
+		        <style>
+
+            :root {
+                --color-primary: #4a8eff;
+                --color-primary-rgb: 74, 142, 255;
+                --color-primary-hover: #5998ff;
+                --color-primary-active: #3281ff;
+                --color-secondary: #6c757d;
+                --color-secondary-rgb: 108, 117, 125;
+                --color-secondary-hover: #6c757d;
+                --color-secondary-active: #6c757d;
+                --color-success: #018e11;
+                --color-success-rgb: 1, 142, 17;
+                --color-success-hover: #0aad01;
+                --color-success-active: #0c8c01;
+                --color-info: #2CA8FF;
+                --color-info-rgb: 44, 168, 255;
+                --color-info-hover: #2CA8FF;
+                --color-info-active: #2CA8FF;
+                --color-warning: #FFB236;
+                --color-warning-rgb: 255, 178, 54;
+                --color-warning-hover: #FFB236;
+                --color-warning-active: #FFB236;
+                --color-danger: #ff5062;
+                --color-danger-rgb: 255, 80, 98;
+                --color-danger-hover: #ff5062;
+                --color-danger-active: #ff5062;
+                --color-green: #30b570;
+                --color-blue: #0073ff;
+                --color-purple: #8557D3;
+                --color-red: #ff5062;
+                --color-muted: rgba(69, 89, 122, 0.6);
+                --wpdm-font:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+
+            .wpdm-download-link.btn.btn-primary {
+                border-radius: 4px;
+            }
+
+
+        </style>
+		        <script>
+            function wpdm_rest_url(request) {
+                return "https://ccnareponses.com/wp-json/wpdm/" + request;
+            }
+        </script>
+		
+
+<meta name="generator" content="WP Rocket 3.21.1" data-wpr-features="wpr_minify_js wpr_minify_css wpr_preload_links wpr_desktop" /></head>
+
+<body data-rsssl=1 class="wp-singular post-template-default single single-post postid-2244 single-format-standard wp-theme-smart-mag right-sidebar post-layout-modern post-cat-5 has-lb has-lb-sm layout-normal elementor-default elementor-kit-7409 grow-content-body">
+
+
+
+<div data-rocket-location-hash="a933d212100e5e0b47adec7322983482" class="main-wrap">
+
+	
+<div data-rocket-location-hash="f095da910053694a9017f7c35c9c7614" class="off-canvas-backdrop"></div>
+<div data-rocket-location-hash="e2de4a26677d655831467941374a2162" class="mobile-menu-container off-canvas hide-widgets-sm" id="off-canvas">
+
+	<div data-rocket-location-hash="74c5b8180307cd6dba3c190477edcc0a" class="off-canvas-head">
+		<a href="#" class="close">
+			<span class="visuallyhidden">Close Menu</span>
+			<i class="tsi tsi-times"></i>
+		</a>
+
+		<div class="ts-logo">
+					</div>
+	</div>
+
+	<div data-rocket-location-hash="43bfab4188aca985be6c3bccc02821fc" class="off-canvas-content">
+
+		
+			<ul id="menu-france-menu" class="mobile-menu"><li id="menu-item-12573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-12573"><a href="https://ccnareponses.com/">Accueil</a></li>
+<li id="menu-item-7502" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7502"><a href="https://ccnareponses.com/ccna-1-introduction-to-networks-v7-02-itn-reponses-francais/">CCNA 1 &#8211; ITN v7</a></li>
+<li id="menu-item-7503" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7503"><a href="https://ccnareponses.com/ccna-2-reponses-francais-switching-routing-and-wireless-essentials-v7-02/">CCNA 2 &#8211; SRWE v7</a></li>
+<li id="menu-item-7504" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7504"><a href="https://ccnareponses.com/ccna-3-v7-02-ensa-reponses-francais-enterprise-networking-security-and-automation/">CCNA 3 &#8211; ENSA v7</a></li>
+<li id="menu-item-7499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7499"><a href="https://ccnareponses.com/banque-de-questions/">Banque de questions</a></li>
+</ul>
+		
+		
+		
+		<div class="spc-social-block spc-social spc-social-b smart-head-social">
+		
+			
+				<a href="#" class="link service s-facebook" target="_blank" rel="nofollow noopener">
+					<i class="icon tsi tsi-facebook"></i>					<span class="visuallyhidden">Facebook</span>
+				</a>
+									
+			
+				<a href="#" class="link service s-twitter" target="_blank" rel="nofollow noopener">
+					<i class="icon tsi tsi-twitter"></i>					<span class="visuallyhidden">X (Twitter)</span>
+				</a>
+									
+			
+				<a href="#" class="link service s-instagram" target="_blank" rel="nofollow noopener">
+					<i class="icon tsi tsi-instagram"></i>					<span class="visuallyhidden">Instagram</span>
+				</a>
+									
+			
+		</div>
+
+		
+	</div>
+
+</div>
+<div data-rocket-location-hash="1cf54cda0eb1aa967484f4ff216e0c7e" class="smart-head smart-head-a smart-head-main" id="smart-head" data-sticky="auto" data-sticky-type="smart" data-sticky-full>
+	
+	<div data-rocket-location-hash="4475d8fb7e34e0acbc78243b82cd7044" class="smart-head-row smart-head-top s-dark smart-head-row-full">
+
+		<div class="inner wrap">
+
+							
+				<div class="items items-left ">
+					<div class="nav-wrap">
+		<nav class="navigation navigation-small nav-hov-a">
+			<ul id="menu-secondnavtop" class="menu"><li id="menu-item-12577" class="pll-parent-menu-item menu-item menu-item-type-custom menu-item-object-custom current-menu-parent menu-item-has-children menu-item-12577"><a href="#pll_switcher"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAbFBMVEVzldTg4ODS0tLxDwDtAwDjAADD0uz39/fy8vL3k4nzgna4yOixwuXu7u7s6+zn5+fyd2rvcGPtZljYAABrjNCpvOHrWkxegsqfs93NAADpUUFRd8THAABBa7wnVbERRKa8vLyxsLCoqKigoKClCvcsAAAAXklEQVR4AS3JxUEAQQAEwZo13Mk/R9w5/7UERJCIGIgj5qfRJZEpPyNfCgJTjMR1eRRnJiExFJz5Mf1PokWr/UztIjRGQ3V486u0HO55m634U6dMcf0RNPfkVCTvKjO16xHA8miowAAAAABJRU5ErkJggg==" alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">Français</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-12577-fr" class="lang-item lang-item-59 lang-item-fr current-lang lang-item-first menu-item menu-item-type-custom menu-item-object-custom menu-item-12577-fr"><a href="https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/" lang="fr-FR" hreflang="fr-FR"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAbFBMVEVzldTg4ODS0tLxDwDtAwDjAADD0uz39/fy8vL3k4nzgna4yOixwuXu7u7s6+zn5+fyd2rvcGPtZljYAABrjNCpvOHrWkxegsqfs93NAADpUUFRd8THAABBa7wnVbERRKa8vLyxsLCoqKigoKClCvcsAAAAXklEQVR4AS3JxUEAQQAEwZo13Mk/R9w5/7UERJCIGIgj5qfRJZEpPyNfCgJTjMR1eRRnJiExFJz5Mf1PokWr/UztIjRGQ3V486u0HO55m634U6dMcf0RNPfkVCTvKjO16xHA8miowAAAAABJRU5ErkJggg==" alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">Français</span></a></li>
+	<li id="menu-item-12577-de" class="lang-item lang-item-62 lang-item-de menu-item menu-item-type-custom menu-item-object-custom menu-item-12577-de"><a href="https://ccnareponses.com/de/kontrollpruefung-optimieren-ueberwachen-und-fehlerbehebung-in-netzwerken-antworten/" lang="de-DE" hreflang="de-DE"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAABLElEQVR4AY2QgUZEQRSGz9ydmzbYkBWABBJYABHEFhJ6m0WP0DMEQNIr9AKrN8ne2Tt3Zs7MOdOZmRBEv+v34Tvub9R6fdNlAzU+snSME/wdjbjbbJ6EiEg6BA8102QbjKNpoMzw8v6qD/sOALbbT2MC1NgaAWOKOgxf5czY+4dbAX2G/THzcozLrvPV85IQyqVz0rvg2p9Pei4HjzSsiFbV4JgyhhxCjpGdZ0RhdikLB9/b8Qig7MkpSovR7Cp59q6CazaNFiTt4J82o6uvdMVwTsztKTXZod4jgOJJuqNAjFyGrBR8gM6XwKfIC4KanBSTZ0rClKh08D9DFh3egW7ebH7NcRDQWrz9rM2Ne+mDOXB2mZJ8agL19nwxR2iZXGm1gDbQKhDjd4yHb2oW/KR8xHicAAAAAElFTkSuQmCC" alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">Deutsch</span></a></li>
+</ul>
+</li>
+<li id="menu-item-8721" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8721"><a href="https://ccnareponses.com/banque-de-questions/">Banque de questions</a></li>
+<li id="menu-item-8722" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8722"><a href="https://ccnareponses.com/contact/">Contact</a></li>
+</ul>		</nav>
+	</div>
+				</div>
+
+							
+				<div class="items items-center empty">
+								</div>
+
+							
+				<div class="items items-right ">
+				
+
+	<a href="#" class="search-icon has-icon-only is-icon" title="Search">
+		<i class="tsi tsi-search"></i>
+	</a>
+
+				</div>
+
+						
+		</div>
+	</div>
+
+	
+	<div data-rocket-location-hash="ce03145ae535fbfd496b3df978708424" class="smart-head-row smart-head-mid is-light smart-head-row-full">
+
+		<div class="inner wrap">
+
+							
+				<div class="items items-left ">
+					<a href="https://ccnareponses.com/" title="CCNA Réponses &#8211; Questions et réponses aux Examens" rel="home" class="logo-link ts-logo logo-is-image">
+		<span>
+			
+				
+					<img src="https://ccnareponses.com/wp-content/uploads/2026/04/1xxCCNA-reponses-logo.png" class="logo-image logo-image-dark" alt="CCNA Réponses &#8211; Questions et réponses aux Examens" srcset="https://ccnareponses.com/wp-content/uploads/2026/04/1xxCCNA-reponses-logo.png ,https://ccnareponses.com/wp-content/uploads/2026/04/2xCCNA-reponses-logo.png 2x" width="240" height="28"/><img loading="lazy" src="https://ccnareponses.com/wp-content/uploads/2026/03/CCNA-reponses-logo-NEW-1-300x35-1.png" class="logo-image" alt="CCNA Réponses &#8211; Questions et réponses aux Examens" width="300" height="35"/>
+									 
+					</span>
+	</a>				</div>
+
+							
+				<div class="items items-center empty">
+								</div>
+
+							
+				<div class="items items-right ">
+					<div class="nav-wrap">
+		<nav class="navigation navigation-main nav-hov-a">
+			<ul id="menu-france-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-12573"><a href="https://ccnareponses.com/">Accueil</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7502"><a href="https://ccnareponses.com/ccna-1-introduction-to-networks-v7-02-itn-reponses-francais/">CCNA 1 &#8211; ITN v7</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7503"><a href="https://ccnareponses.com/ccna-2-reponses-francais-switching-routing-and-wireless-essentials-v7-02/">CCNA 2 &#8211; SRWE v7</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-7504"><a href="https://ccnareponses.com/ccna-3-v7-02-ensa-reponses-francais-enterprise-networking-security-and-automation/">CCNA 3 &#8211; ENSA v7</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7499"><a href="https://ccnareponses.com/banque-de-questions/">Banque de questions</a></li>
+</ul>		</nav>
+	</div>
+				</div>
+
+						
+		</div>
+	</div>
+
+	</div>
+<div data-rocket-location-hash="338206441982d5d639494f0a320c7815" class="smart-head smart-head-a smart-head-mobile" id="smart-head-mobile" data-sticky="mid" data-sticky-type="smart" data-sticky-full>
+	
+	<div data-rocket-location-hash="6a2add0b664d3207f0db637b9c8c2dec" class="smart-head-row smart-head-mid smart-head-row-3 s-dark smart-head-row-full">
+
+		<div class="inner wrap">
+
+							
+				<div class="items items-left ">
+				
+<button class="offcanvas-toggle has-icon" type="button" aria-label="Menu">
+	<span class="hamburger-icon hamburger-icon-a">
+		<span class="inner"></span>
+	</span>
+</button>				</div>
+
+							
+				<div class="items items-center ">
+					<a href="https://ccnareponses.com/" title="CCNA Réponses &#8211; Questions et réponses aux Examens" rel="home" class="logo-link ts-logo logo-is-image">
+		<span>
+			
+				
+					<img src="https://ccnareponses.com/wp-content/uploads/2026/04/1xxCCNA-reponses-logo.png" class="logo-image logo-image-dark" alt="CCNA Réponses &#8211; Questions et réponses aux Examens" srcset="https://ccnareponses.com/wp-content/uploads/2026/04/1xxCCNA-reponses-logo.png ,https://ccnareponses.com/wp-content/uploads/2026/04/2xCCNA-reponses-logo.png 2x" width="240" height="28"/><img loading="lazy" src="https://ccnareponses.com/wp-content/uploads/2026/03/CCNA-reponses-logo-NEW-1-300x35-1.png" class="logo-image" alt="CCNA Réponses &#8211; Questions et réponses aux Examens" width="300" height="35"/>
+									 
+					</span>
+	</a>				</div>
+
+							
+				<div class="items items-right ">
+				
+
+	<a href="#" class="search-icon has-icon-only is-icon" title="Search">
+		<i class="tsi tsi-search"></i>
+	</a>
+
+				</div>
+
+						
+		</div>
+	</div>
+
+	</div>
+
+<div data-rocket-location-hash="9e014a5fdd5db851c41983d5dcdfbcbf" class="main ts-contain cf right-sidebar">
+	
+		
+
+<div data-rocket-location-hash="755bb7fc2cb09625dffda65870f441e9" class="ts-row">
+	<div class="col-8 main-content s-post-contain">
+
+					<div class="the-post-header s-head-modern s-head-modern-a">
+	<div class="post-meta post-meta-a post-meta-left post-meta-single has-below"><h1 class="is-title post-title">Modules 9 &#8211; 12: Examen d&rsquo;optimisation, de surveillance et de dépannage des réseaux Réponses</h1><div class="post-meta-items meta-below"><span class="meta-item date"><time class="post-date" datetime="2022-05-09T17:13:32+02:00">09/05/2022</time></span><span class="meta-item has-next-icon date-modified"><span class="updated-on">Updated:</span><time class="post-date" datetime="2024-12-22T09:06:43+01:00">22/12/2024</time></span><span class="meta-item comments has-icon"><a href="https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#respond"><i class="tsi tsi-comment-o"></i>Aucun commentaire</a></span><span class="meta-item post-cat">
+						
+						<a href="https://ccnareponses.com/ccna-3/" class="category term-color-5" rel="category">CCNA 3</a>
+					</span>
+					</div></div>
+	<div class="post-share post-share-b spc-social-colors  post-share-b1">
+
+				
+		
+				
+			<a href="#" class="cf service s-link service-lg" 
+				title="Copy Link" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-link"></i>
+				<span class="label">Copy Link</span>
+				<span data-message="Link copied successfully!"></span>			</a>
+				
+				
+			<a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F" class="cf service s-facebook service-lg" 
+				title="Share on Facebook" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-facebook"></i>
+				<span class="label">Facebook</span>
+							</a>
+				
+				
+			<a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F&#038;text=Modules%209%20-%2012%3A%20Examen%20d%27optimisation%2C%20de%20surveillance%20et%20de%20d%C3%A9pannage%20des%20r%C3%A9seaux%20R%C3%A9ponses" class="cf service s-twitter service-lg" 
+				title="Share on X (Twitter)" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-twitter"></i>
+				<span class="label">Twitter</span>
+							</a>
+				
+				
+			<a href="https://wa.me/?text=Modules%209%20-%2012%3A%20Examen%20d%27optimisation%2C%20de%20surveillance%20et%20de%20d%C3%A9pannage%20des%20r%C3%A9seaux%20R%C3%A9ponses%20https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F" class="cf service s-whatsapp service-lg" 
+				title="Share on WhatsApp" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-whatsapp"></i>
+				<span class="label">WhatsApp</span>
+							</a>
+				
+				
+			<a href="https://t.me/share/url?url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F&#038;title=Modules%209%20-%2012%3A%20Examen%20d%27optimisation%2C%20de%20surveillance%20et%20de%20d%C3%A9pannage%20des%20r%C3%A9seaux%20R%C3%A9ponses" class="cf service s-telegram service-sm" 
+				title="Share on Telegram" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-telegram"></i>
+				<span class="label">Telegram</span>
+							</a>
+				
+				
+			<a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F&#038;media=https%3A%2F%2Fccnareponses.com%2Fwp-content%2Fuploads%2F2022%2F05%2F2022-05-09_221020.jpg&#038;description=Modules%209%20-%2012%3A%20Examen%20d%27optimisation%2C%20de%20surveillance%20et%20de%20d%C3%A9pannage%20des%20r%C3%A9seaux%20R%C3%A9ponses" class="cf service s-pinterest service-sm" 
+				title="Share on Pinterest" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-pinterest"></i>
+				<span class="label">Pinterest</span>
+							</a>
+				
+				
+			<a href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F" class="cf service s-linkedin service-sm" 
+				title="Share on LinkedIn" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-linkedin"></i>
+				<span class="label">LinkedIn</span>
+							</a>
+				
+				
+			<a href="/cdn-cgi/l/email-protection#5b64282e39313e382f6616343f2e373e287e696b627e696b767e696b6a697e681a7e696b1e233a363e357e696b3f7e696c342b2f323632283a2f3234357e69187e696b3f3e7e696b282e292d3e3237373a35383e7e696b3e2f7e696b3f3e7e696b3f7e18687e1a622b3a35353a3c3e7e696b3f3e287e696b297e18687e1a62283e3a2e237e696b097e18687e1a622b3435283e287d786b68636039343f2266332f2f2b287e681a7e691d7e691d3838353a293e2b3435283e28753834367e691d36343f2e373e287662766a69763e233a363e35763f342b2f323632283a2f323435763f3e76282e292d3e3237373a35383e763e2f763f3e763f3e2b3a35353a3c3e763f3e2876293e283e3a2e2376293e2b3435283e287e691d" class="cf service s-email service-sm" title="Share via Email" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-envelope-o"></i>
+				<span class="label">Email</span>
+							</a>
+				
+				
+			<a href="https://www.reddit.com/submit?url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F&#038;title=Modules%209%20-%2012%3A%20Examen%20d%27optimisation%2C%20de%20surveillance%20et%20de%20d%C3%A9pannage%20des%20r%C3%A9seaux%20R%C3%A9ponses" class="cf service s-reddit service-sm" 
+				title="Share on Reddit" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-reddit-alien"></i>
+				<span class="label">Reddit</span>
+							</a>
+				
+				
+			<a href="https://vk.com/share.php?url=https%3A%2F%2Fccnareponses.com%2Fmodules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses%2F&#038;title=Modules%209%20-%2012%3A%20Examen%20d%27optimisation%2C%20de%20surveillance%20et%20de%20d%C3%A9pannage%20des%20r%C3%A9seaux%20R%C3%A9ponses" class="cf service s-vk service-sm" 
+				title="Share on VKontakte" target="_blank" rel="nofollow noopener">
+				<i class="tsi tsi-vk"></i>
+				<span class="label">VKontakte</span>
+							</a>
+				
+		
+				
+					<a href="#" class="show-more" title="Show More Social Sharing"><i class="tsi tsi-share"></i></a>
+		
+				
+	</div>
+
+	
+	
+</div>		
+					<div class="single-featured"></div>
+		
+		<div class="the-post s-post-modern">
+
+			<article id="post-2244" class="post-2244 post type-post status-publish format-standard has-post-thumbnail category-ccna-3 grow-content-main">
+				
+<div class="post-content-wrap">
+	
+	<div class="post-content cf entry-content content-spacious">
+
+		
+				
+		<h2>Examen Checkpoint: optimisation, de surveillance et de dépannage</h2>
+<h3>Modules 9 et 12 du programme d&rsquo;études CCNA3 &#8211; Mise en réseau, sécurité et automatisation des entreprises (ENSA) v7.0 Réponses Français</h3>
+<p><strong>1. Quel est le bénéfice de déployer un marquage de QoS dans la couche 3 sur l&rsquo;ensemble du réseau d&rsquo;une l&rsquo;entreprise ?</strong></p>
+<ul>
+<li>Le marquage de couche 3 permet d&rsquo;envoyer les informations relatives à la QoS aux commutateurs qui ne connaissent aucune adresse IP.</li>
+<li class="correct_answer">Le marquage de couche 3 permet de transporter les informations relatives à la QoS d&rsquo;un bout à l&rsquo;autre.</li>
+<li>Le marquage de couche 3 peut être utilisé pour transporter du trafic non IP.</li>
+<li>Le marquage de couche 3 peut être transféré dans les champs 802.1Q.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le marquage de trafic à la couche 2 ou 3 est très important et a un effet sur le traitement du trafic dans un réseau pour lequel existe une QoS.<br />
+Le marquage des trames au niveau de la couche 2 peut être effectué pour le trafic non-IP.<br />
+Le marquage des trames au niveau de la couche 2 est la seule option de QoS disponible pour les commutateurs qui ne connaissent pas les adresses IP.<br />
+Le marquage de la couche 3 porte les informations QoS de bout en bout.</p></div><br />
+<strong>2. Quelle est la fonction de la ligne de confiance d&rsquo;une QoS ?</strong></p>
+<ul>
+<li>La ligne de confiance permet de ne laisser entrer dans le réseau que le trafic émanant de terminaux fiables.</li>
+<li>La ligne de confiance permet de ne laisser passer le trafic que s&rsquo;il a précédemment été marqué.</li>
+<li>La ligne de confiance marque l&rsquo;endroit où le trafic ne peut être marqué de nouveau.</li>
+<li class="correct_answer">La ligne de confiance permet de savoir quels appareils se fient au marquage sur les paquets qui entrent dans le réseau.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le trafic sur le réseau est classifié et marqué aussi près de l&rsquo;appareil source que possible. La ligne de confiance indique l&rsquo;endroit où les marquages de QoS sur un paquet qui entre dans le réseau d&rsquo;une entreprise sont jugés fiables.</p></div><br />
+<strong>3. Quelles sont les deux approches permettant d&#8217;empêcher la perte de paquets induite par la congestion d&rsquo;une interface ? (Choisissez deux propositions.)</strong></p>
+<ul>
+<li>Réduire l&rsquo;espace tampon.</li>
+<li>Désactiver les mécanismes de mise en file d&rsquo;attente.</li>
+<li>Empêcher les pics de trafic.</li>
+<li class="correct_answer">Abandonner les paquets moins prioritaires.</li>
+<li class="correct_answer">Augmenter la capacité des liaisons.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Trois approches peuvent empêcher les paquets de trafic sensibles d&rsquo;être abandonnés :<br />
+Augmenter la capacité des liaisons pour réduire ou éviter la congestion.<br />
+Garantir suffisamment de bande passante et augmenter l&rsquo;espace de la mémoire tampon pour pouvoir prendre en charge les pics de trafic des flux fragiles.<br />
+Empêcher la congestion en abandonnant les paquets moins prioritaires avant l&rsquo;apparition de la congestion.</p></div><br />
+<strong>4. Quel scénario de configuration offrirait le plus de protection à SNMP pour obtenir et définir des messages?</strong></p>
+<ul>
+<li>SNMPv1 avec gestion hors bande dans un sous-réseau privé</li>
+<li>SNMPv2 pour la gestion in-band avec des identifiants de communauté en lecture-écriture</li>
+<li>Identifiants de communauté SNMP.</li>
+<li class="correct_answer">SNMPv3 configuré avec le niveau de sécurité d&rsquo;authentification</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> SNMPv3 prend en charge l&rsquo;authentification et le chiffrement avec les niveaux de sécurité d&rsquo;authentification et privé.SNMPv1 et SNMPv2 ne prennent pas en charge l&rsquo;authentification ou le chiffrement. L&rsquo;utilisation d&rsquo;identifiant de communauté par défaut n&rsquo;est pas sécurisée car l&rsquo;identifiant par défaut de «public» est bien connue et permettrait à toute personne disposant de systèmes SNMP de lire les MIB de périphériques.</p></div><br />
+<strong>5. Reportez-vous à l&rsquo;illustration. L&rsquo;administrateur réseau saisit ces commandes dans le routeur R1</strong></p>
+<pre>R1# copy running-config tftp
+Address or name of remote host [ ]?</pre>
+<figure id="attachment_2245" aria-describedby="caption-attachment-2245" style="width: 672px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-2245" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215412.jpg" alt="Examen d'optimisation, de surveillance et de dépannage des réseaux 5" width="672" height="391" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215412.jpg 672w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215412-300x175.jpg 300w" sizes="(max-width: 672px) 100vw, 672px" /><figcaption id="caption-attachment-2245" class="wp-caption-text">Examen d&rsquo;optimisation, de surveillance et de dépannage des réseaux 5</figcaption></figure>
+<p><strong>Lorsque le routeur demande une adresse ou un nom d&rsquo;hôte distant, quelle adresse IP l&rsquo;administrateur doit-il saisir ?</strong></p>
+<ul>
+<li>192.168.9.254</li>
+<li>192.168.10.1</li>
+<li>192.168.10.2</li>
+<li class="correct_answer">192.168.11.252</li>
+<li>192.168.11.254</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> L&rsquo;adresse demandée est l&rsquo;adresse du serveur TFTP. Un serveur TFTP est une application qui peut fonctionner sur une multitude de périphériques réseau, comme un routeur, un serveur ou même un ordinateur en réseau.</p></div><br />
+<strong>6. La commande ntp server 10.1.1.1 est exécutée sur un routeur. Quel est l&rsquo;impact de cette commande ?</strong></p>
+<ul>
+<li class="correct_answer">synchronise l&rsquo;horloge du système avec la source d&rsquo;heure avec l&rsquo;adresse IP 10.1.1.1.</li>
+<li>Elle détermine le serveur auquel les fichiers de journalisation système doivent être envoyés.</li>
+<li>Elle identifie le serveur sur lequel les sauvegardes de configuration doivent être stockées.</li>
+<li>Elle garantit que toutes les informations de journalisation seront horodatées.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> La commande ntp server ip-address configure le serveur NTP pour les appareils iOS.</p></div><br />
+<strong>7. En tant qu&rsquo;administrateur réseau, vous avez été invité à implémenter EtherChannel sur le réseau d&rsquo;entreprise. En quoi cette configuration consiste-t-elle ?</strong></p>
+<ul>
+<li>à regrouper deux périphériques en vue de partager une adresse IP virtuelle</li>
+<li class="correct_answer">à regrouper plusieurs ports physiques pour augmenter la bande passante entre deux commutateurs</li>
+<li>à fournir des périphériques redondants pour autoriser le flux du trafic dans l&rsquo;éventualité où un périphérique est défaillant</li>
+<li>à fournir des liaisons redondantes bloquant ou acheminant le trafic de façon dynamique</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> EtherChannel est utilisé sur un réseau en vue d&rsquo;accroître les capacités de vitesse en regroupant plusieurs ports physiques au sein d&rsquo;une ou plusieurs liaisons EtherChannel logiques entre deux commutateurs. Le protocole STP est utilisé pour fournir des liaisons redondantes qui bloquent ou transfèrent dynamiquement le trafic entre des commutateurs. Les protocoles FHRP sont utilisés afin de regrouper les périphériques physiques en vue d&rsquo;assurer le flux de trafic en cas de panne.</p></div><br />
+<strong>8. Quelle est la définition d&rsquo;une conception du réseau LAN à deux niveaux ?</strong></p>
+<ul>
+<li>Les couches d&rsquo;accès et de distribution sont regroupées dans un niveau, et la couche cœur de réseau sur un niveau distinct</li>
+<li>Les couches d&rsquo;accès, de distribution et cœur de réseau sont regroupées dans un niveau, avec une couche distincte en tant que dorsale</li>
+<li class="correct_answer">Les couches de distribution et cœur de réseau sont regroupées dans un niveau, et la couche d&rsquo;accès sur un niveau distinct</li>
+<li>Les couches d&rsquo;accès et cœur de réseau sont regroupées dans un niveau, et la couche de distribution sur un niveau distinct</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Il n’est pas toujours nécessaire ou rentable d’avoir trois niveaux de réseau distincts. Toutes les conceptions de réseaux nécessitent une couche d’accès, mais une conception à deux couches peut regrouper la couche de distribution et la couche principale en une seule couche pour répondre aux besoins d’un petit site qui compte des utilisateurs peu nombreux.</p></div><br />
+<strong>9. Associez les fonctions aux couches correspondantes. (Les options ne sont pas toutes utilisées.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2246" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215536.jpg" alt="" width="725" height="827" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215536.jpg 725w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215536-263x300.jpg 263w" sizes="(max-width: 725px) 100vw, 725px" /></p>
+<p>couche d’accès</p>
+<ul>
+<li>Fournir un accès réseau à l&rsquo;utilisateur</li>
+<li>Constituer la périphérie du réseau</li>
+</ul>
+<p>couche distribution</p>
+<ul>
+<li>Implémenter une politique d&rsquo;accès réseau</li>
+<li>Définir les limites de routage de couche 3</li>
+</ul>
+<p>couche cœur de réseau</p>
+<ul>
+<li>Fournir une connectivité haut débit du réseau fédérateur</li>
+<li>Constituer un associateur de tous les blocs de campus</li>
+</ul>
+<p><strong>10. Citez deux bonnes raisons de créer une ligne de base du réseau. (Choisissez deux réponses.)</strong></p>
+<ul>
+<li>Pour concevoir un réseau en fonction d&rsquo;un modèle approprié</li>
+<li>Pour déterminer le type d&rsquo;équipement à mettre en œuvre</li>
+<li>Pour évaluer les failles de sécurité du réseau</li>
+<li>Pour sélectionner un protocole de routage</li>
+<li class="correct_answer">Pour identifier les comportements anormaux du réseau à l&rsquo;avenir</li>
+<li class="correct_answer">Pour déterminer si le réseau peut fournir les règles requises</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Une ligne de base du réseau est créée afin de fournir un point de comparaison, lorsque le réseau fonctionne de manière optimale, vis-à-vis des modifications implémentées dans l&rsquo;infrastructure. La planification initiale permet d&rsquo;assurer le suivi des performances et des modèles de trafic, et de surveiller le comportement du réseau.</p></div><br />
+<strong>11. Un ordinateur peut accéder aux périphériques situés sur le même réseau que lui, mais pas à ceux présents sur d&rsquo;autres réseaux. Quelle est la cause probable de ce problème ?</strong></p>
+<ul>
+<li>Le masque de sous-réseau de l&rsquo;ordinateur n&rsquo;est pas correct.</li>
+<li>L&rsquo;adresse IP de l&rsquo;ordinateur n&rsquo;est pas valide.</li>
+<li class="correct_answer">L&rsquo;adresse de la passerelle par défaut de l&rsquo;ordinateur n&rsquo;est pas valide.</li>
+<li>Le câble n&rsquo;est pas correctement raccordé à la carte réseau.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> L&rsquo;adresse de la passerelle par défaut est l&rsquo;adresse du périphérique utilisé par un hôte pour accéder à Internet ou à un autre réseau. Si l&rsquo;adresse de la passerelle par défaut est manquante ou incorrecte, cet hôte ne sera pas capable de communiquer avec l&rsquo;extérieur du réseau local. Étant donné que l&rsquo;hôte peut accéder aux autres hôtes situés sur le réseau local, cela signifie que le câble réseau et les autres éléments de la configuration IP fonctionnent.</p></div><br />
+<strong>12. À quelle étape du recueil des symptômes l&rsquo;ingénieur réseau détermine-t-il si le problème se situe sur la couche cœur de réseau, la couche de distribution ou la couche d&rsquo;accès du réseau ?</strong></p>
+<ul>
+<li>Détermination de la propriété.</li>
+<li>Identification des symptômes.</li>
+<li>Collecte d&rsquo;informations.</li>
+<li>Documentation des symptômes.</li>
+<li class="correct_answer">Réduction de l&rsquo;étendue des causes probables.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Lors de l&rsquo;étape de réduction de l&rsquo;étendue des causes probables du processus de recueil des symptômes, un ingénieur réseau déterminera si le problème réseau se situe au niveau de la couche cœur de réseau, de la couche de distribution ou de la couche d&rsquo;accès du réseau. Une fois cette étape terminée et la couche identifiée, l&rsquo;ingénieur réseau peut déterminer quels éléments de l&rsquo;équipement constituent la cause la plus probable du problème.</p></div><br />
+<strong>13. Des paquets vocaux arrivent sur un téléphone IP en flux continu, mais, parce que le réseau est congestionné, le délai entre chaque paquet varie et la conversation est hachée. Quel terme décrit la cause de ce problème ?</strong></p>
+<ul>
+<li>mise en file d&rsquo;attente</li>
+<li>mise en mémoire tampon</li>
+<li class="correct_answer">gigue</li>
+<li>latence</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le terme gigue désigne la variation de latence ou de délai entre les paquets reçus. Lorsque des données sont envoyées, des paquets sont envoyés dans un flux continu et sont espacés de manière égale. Si le réseau est congestionné, le délai entre chaque paquet varie plutôt que de rester constant.</p></div><br />
+<strong>14. Quel algorithme de mise en file ne présente qu&rsquo;une file d&rsquo;attente et traite tous les paquets d&rsquo;égale manière ?</strong></p>
+<ul>
+<li>WFQ</li>
+<li class="correct_answer">FIFO</li>
+<li>CBWFQ</li>
+<li>LLQ</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> La méthode de mise en file d&rsquo;attente dite FIFO permet de faire sortir d&rsquo;une interface les paquets dans leur ordre d&rsquo;arrivée et n&rsquo;offre pas la possibilité de décider de la priorité à accorder aux paquets. Tous les paquets sont traités d&rsquo;égale manière.</p></div><br />
+<strong>15. Un administrateur réseau déploie un programme de QoS établissant la possibilité de placer dans une file d&rsquo;attente spéciale le trafic vocal de manière à ce que le trafic vocal soit transmis avant le trafic réseau mis en attente. Quelle méthode de mise en file d&rsquo;attente conviendrait le mieux ?</strong></p>
+<ul>
+<li>WFQ</li>
+<li class="correct_answer">LLQ</li>
+<li>CBWFQ</li>
+<li>FIFO</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le LLQ (Low Latency Queuing) permet de placer les données sensibles aux retards, le trafic vocal notamment, dans une file prioritaire et de les transmettre en premier, avant que ne soit acheminé tout autre type de trafic en attente.</p></div><br />
+<strong>16. Le modèle de QoS dit « service au mieux » présente plusieurs caractéristiques. Citez-en deux. (Choisissez deux propositions.)</strong></p>
+<ul>
+<li class="correct_answer">Il n&rsquo;offre pas de garantie de livraison des paquets.</li>
+<li class="correct_answer">Il permet de traiter tous les paquets de la même façon.</li>
+<li>Les hôtes en extrémité peuvent faire connaître leurs besoins au réseau.</li>
+<li>Il assure un traitement préférentiel aux paquets vocaux.</li>
+<li>Il repose sur l&rsquo;utilisation d&rsquo;une approche prenant en compte le type de connexion.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le service au mieux n&rsquo;offre aucune garantie et est utilisé généralement sur Internet. Tous les paquets transitant sur le réseau sont traités de la même façon.</p></div><br />
+<strong>17. Un administrateur souhaite remplacer le fichier de configuration sur un routeur Cisco en en chargeant un nouveau à partir d&rsquo;un serveur TFTP. Quelles sont les deux choses que l&rsquo;administrateur doit connaître pour pouvoir réaliser cette tâche ? (Choisissez deux réponses.)</strong></p>
+<ul>
+<li>La valeur du registre de configuration</li>
+<li class="correct_answer">Le nom du fichier de configuration enregistré sur le serveur TFTP</li>
+<li>L&rsquo;adresse IP du routeur</li>
+<li class="correct_answer">L&rsquo;adresse IP du serveur TFTP</li>
+<li>Le nom du fichier de configuration actuellement enregistré sur le routeur</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Pour identifier l&#8217;emplacement exact du fichier de configuration souhaité, l&rsquo;adresse IP du serveur TFTP et le nom du fichier de configuration sont essentiels. Le fichier étant une nouvelle configuration, le nom du fichier de configuration actuel n&rsquo;est pas nécessaire.</p></div><br />
+<strong>18. Quelles sont les fonctions fournies par un service Syslog ? (Choisissez trois réponses.)</strong></p>
+<ul>
+<li class="correct_answer">collecter les informations de journalisation pour la surveillance et le dépannage</li>
+<li class="correct_answer">spécifier les destinations des messages capturés</li>
+<li>fournir des statistiques sur les paquets qui traversent un périphérique Cisco</li>
+<li class="correct_answer">sélectionner le type d&rsquo;information de journalisation capturée</li>
+<li>sonder de manière régulière les agents pour obtenir des données</li>
+<li>fournir une analyse du trafic</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Il existe trois principales fonctions fournies par le service Syslog :<br />
+collecte des informations d’enregistrement<br />
+sélection du type d’informations à enregistrer<br />
+sélection de la destination des informations enregistrées</p></div><br />
+<strong>19. Quelle est la fonction de l&rsquo;élément MIB dans le cadre d&rsquo;un système de gestion de réseau ?</strong></p>
+<ul>
+<li>collecter les données des agents SNMP</li>
+<li class="correct_answer">stocker les données relatives à un appareil</li>
+<li>envoyer et récupérer des informations sur la gestion du réseau</li>
+<li>modifier les configurations sur les agents SNMP</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> La MIB (Management Information Base) réside sur un appareil du réseau et stocke les données relatives au fonctionnement de l&rsquo;appareil. Le gestionnaire SNMP peut collecter les données des agents SNMP. L&rsquo;agent SNMP donne accès aux données.</p></div><br />
+<strong>20. Quelle proposition décrit le fonctionnement de SNMP ?</strong></p>
+<ul>
+<li>Un système de gestion de réseau (NMS) interroge périodiquement les agents SNMP qui résident sur les périphériques gérés à l&rsquo;aide d&rsquo;une requête traps en vue d&rsquo;obtenir des données de ces périphériques.</li>
+<li class="correct_answer">Une requête set est utilisée par le système de gestion de réseau (NMS) afin de modifier les variables de configuration du périphérique de l&rsquo;agent.</li>
+<li>Une requête get est utilisée par l&rsquo;agent SNMP pour obtenir des données de ce périphérique.​</li>
+<li>Un agent SNMP résidant sur un périphérique géré collecte des informations sur le périphérique et les stocke à distance dans la base de données MIB située sur le NMS.​</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Un agent SNMP qui réside sur un périphérique géré collecte et stocke les informations relatives au périphérique et à son fonctionnement. Ces informations sont stockées localement par l&rsquo;agent dans la base de données MIB. Un système de gestion de réseau (NMS) interroge périodiquement les agents SNMP qui résident sur les périphériques gérés à l&rsquo;aide d&rsquo;une requête get en vue d&rsquo;obtenir des données de ces périphériques.</p></div><br />
+<strong>21. Examinez l&rsquo;illustration. Un administrateur réseau exécute la commande show lldp neighbors sur un commutateur. Quelles sont les deux conclusions qui peuvent être tirées ? (Choisissez deux propositions.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2247" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215916.jpg" alt="" width="814" height="183" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215916.jpg 814w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215916-300x67.jpg 300w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_215916-768x173.jpg 768w" sizes="(max-width: 814px) 100vw, 814px" /></p>
+<ul>
+<li class="correct_answer">Dev1 est connecté à l&rsquo;interface Fa0/5 de S1.</li>
+<li>Dev1 est connecté à l&rsquo;interface Fa0/4 de Dev2.</li>
+<li class="correct_answer">Dev2 est un commutateur.</li>
+<li>Dev1 est un commutateur dont les types d&rsquo;interfaces sont mixtes.</li>
+<li>S1 possède deux interfaces seulement.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Dans le résultat de la commande show lldp , sous Capability, R indique un routeur et B indique un pont (commutateur). Rien n&rsquo;indique que Dev1 et Dev2 sont connectés entre eux.</p></div><br />
+<strong>22. Quelles sont les trois couches du modèle de conception hiérarchique de commutateur ? (Choisissez trois réponses.)</strong></p>
+<ul>
+<li class="correct_answer">Distribution</li>
+<li>Liaison de données</li>
+<li class="correct_answer">Accès</li>
+<li>Entreprise</li>
+<li class="correct_answer">Cœur de réseau</li>
+<li>Accès réseau</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> La couche d&rsquo;accès est la plus basse ; elle permet aux utilisateurs d&rsquo;accéder au réseau. La couche de distribution comporte de nombreuses fonctionnalités, mais elle regroupe les données de la couche d&rsquo;accès, permet le filtrage, le contrôle des stratégies et définit les limites de routage de couche 3. La couche cœur de réseau assure une connectivité haut débit.</p></div><br />
+<strong>23. Associez la description de la directive relative au réseau commuté sans frontières au principe correspondant. (Les options ne sont pas toutes utilisées.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2248" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220014.jpg" alt="" width="1033" height="739" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220014.jpg 1033w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220014-300x215.jpg 300w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220014-1024x733.jpg 1024w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220014-768x549.jpg 768w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220014-211x150.jpg 211w" sizes="(max-width: 1033px) 100vw, 1033px" /></p>
+<p><strong>24. Reportez-vous à l&rsquo;illustration. Quels périphériques sont conservés sur le domaine défaillant lorsque le commutateur S3 n&rsquo;est plus sous tension ?</strong></p>
+<figure id="attachment_2249" aria-describedby="caption-attachment-2249" style="width: 831px" class="wp-caption aligncenter"><img loading="lazy" decoding="async" class="size-full wp-image-2249" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220706.jpg" alt="Examen d'optimisation, de surveillance et de dépannage des réseaux 33" width="831" height="500" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220706.jpg 831w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220706-300x181.jpg 300w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220706-768x462.jpg 768w" sizes="(max-width: 831px) 100vw, 831px" /><figcaption id="caption-attachment-2249" class="wp-caption-text">Examen d&rsquo;optimisation, de surveillance et de dépannage des réseaux 33</figcaption></figure>
+<ul>
+<li>S1 et S4</li>
+<li>S4 et PC_2</li>
+<li>AP_2 et AP_1</li>
+<li class="correct_answer">PC_3 et AP_2</li>
+<li>PC_3 et PC_2</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Un domaine défaillant est la zone d&rsquo;un réseau qui est affectée en cas de défaillance d&rsquo;un périphérique critique tel qu&rsquo;un commutateur S3 ou en cas de problème sur celui-ci.</p></div><br />
+<strong>25. Un concepteur réseau envisage de mettre en œuvre un bloc de commutateurs sur le réseau d&rsquo;entreprise. Quel est le principal avantage du déploiement d&rsquo;un bloc de commutateurs ?</strong></p>
+<ul>
+<li>Un seul routeur central fournit l&rsquo;ensemble du routage entre les VLAN.</li>
+<li>C&rsquo;est un logiciel d&rsquo;application réseau qui empêche la défaillance d&rsquo;un périphérique réseau unique.</li>
+<li>C&rsquo;est une fonctionnalité de sécurité qui est disponible sur tous les nouveaux commutateurs Catalyst.</li>
+<li class="correct_answer">La panne d&rsquo;un bloc de commutateurs n&rsquo;a pas d&rsquo;impact sur tous les utilisateurs finaux.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> La configuration d&rsquo;un bloc de commutateurs offre de la redondance de telle sorte que la défaillance d&rsquo;un seul périphérique réseau n&rsquo;a généralement que peu ou pas d&rsquo;effet sur les utilisateurs finaux.</p></div><br />
+<strong>26. Parmi les propositions suivantes, laquelle décrit l&rsquo;une des fonctions de base de la couche d&rsquo;accès de Cisco Borderless Architecture ?</strong></p>
+<ul>
+<li>Agrégation des domaines de diffusion de couche 2</li>
+<li class="correct_answer">Fourniture de l&rsquo;accès à l&rsquo;utilisateur</li>
+<li>Fourniture de la localisation d&rsquo;incidents</li>
+<li>Agrégation des limites de routage de couche 3</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> L&rsquo;une des fonctions de la couche d&rsquo;accès Cisco Borderless Architecture offre un accès réseau aux utilisateurs. L&rsquo;agrégation de domaines de diffusion de couche 2, l&rsquo;agrégation des limites de routage de couche 3 et la haute disponibilité sont des fonctions de la couche de distribution. La couche principale fournit la localisation de défauts et la connectivité à la dorsale à haute vitesse.</p></div><br />
+<strong>27. Quelle caractéristique est prépondérante pour le technicien en conception de réseaux lorsqu&rsquo;il choisit un commutateur multicouche plutôt qu&rsquo;un commutateur de couche 2 ?</strong></p>
+<ul>
+<li>la possibilité d&rsquo;agréger plusieurs ports en vue d&rsquo;obtenir un débit de données maximum</li>
+<li>la possibilité d&rsquo;alimenter des périphériques connectés directement et le commutateur lui-même</li>
+<li>la possibilité de disposer de plusieurs chemins d&rsquo;acheminement par le biais du réseau commuté sur base du ou des numéros de VLAN</li>
+<li class="correct_answer">la possibilité de créer une table de routage</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Les commutateurs multicouches, également connus sous le nom de commutateurs de couche 3, peuvent acheminer des paquets et créer une table de routage. Cette fonctionnalité est requise dans un réseau à plusieurs VLAN et influence le concepteur du réseau lors de la sélection d&rsquo;un commutateur multicouche. Les autres options sont des fonctionnalités également disponibles sur les commutateurs de couche 2, ce qui signifie qu&rsquo;elles n&rsquo;influencent pas la décision de sélection d&rsquo;un commutateur multicouche.</p></div><br />
+<strong>28. Reportez-vous à l&rsquo;illustration. Un utilisateur a configuré une carte réseau sur le PC comme indiqué, mais constate que le PC n&rsquo;est pas en mesure d&rsquo;accéder à l&rsquo;internet. Quel est le problème?</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2250" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220810.jpg" alt="" width="569" height="514" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220810.jpg 569w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220810-150x136.jpg 150w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220810-450x407.jpg 450w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220810-300x271.jpg 300w" sizes="(max-width: 569px) 100vw, 569px" /></p>
+<ul>
+<li>L&rsquo;adresse DNS préférée est incorrecte.</li>
+<li>Les paramètres n&rsquo;ont pas été validés à la sortie.</li>
+<li class="correct_answer">L&rsquo;adresse de la passerelle par défaut est incorrecte.</li>
+<li>Il ne doit pas y avoir de serveur DNS alternatif.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Pour qu&rsquo;un ordinateur puisse communiquer en dehors de son réseau, il doit disposer d&rsquo;une passerelle par défaut valide configurée.Cette adresse ne peut pas être la même que l&rsquo;adresse IP de l&rsquo;ordinateur.</p></div><br />
+<strong>29. Reportez-vous à l&rsquo;illustration. Un ingénieur réseau a configuré une liste ACL empêchant l&rsquo;accès Telnet et HTTP au serveur Web HQ des utilisateurs invités dans le réseau local de filiale. L&rsquo;adresse du serveur Web est 192.168.1.10 et tous les utilisateurs invités se voient attribuer des adresses dans le réseau 192.168.10.0/24. Après la mise en œuvre de l&rsquo;ACL, personne ne peut accéder à aucun des serveurs du HQ. Quel est le problème?</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2251" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220852.jpg" alt="" width="576" height="304" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220852.jpg 576w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220852-300x158.jpg 300w" sizes="(max-width: 576px) 100vw, 576px" /></p>
+<ul>
+<li class="correct_answer">L&rsquo;ACL refuse implicitement l&rsquo;accès à tous les serveurs.</li>
+<li>Les listes ACL nommées nécessitent l&rsquo;utilisation de numéros de port.</li>
+<li>Les listes ACL entrantes doivent être routées avant qu&rsquo;elles ne soient traitées.</li>
+<li>La liste de contrôle d&rsquo;accès est appliquée à une mauvaise interface et dans la mauvaise direction.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Les ACL nommées et numérotées ont un ACE de refus implicite à la fin de la liste. L’instruction de refus implicite bloque l’ensemble du trafic.</p></div><br />
+<strong>30. Reportez-vous à l&rsquo;illustration. Un administrateur réseau a configuré OSPFv2 sur les deux routeurs Cisco, comme indiqué. PC1 ne peut pas se connecter à PC2. Que doit faire en premier l&rsquo;administrateur lorsqu&rsquo;il résout un problème de mise en œuvre du protocole OSPFv2 ?</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2252" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220940.jpg" alt="" width="766" height="367" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220940.jpg 766w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_220940-300x144.jpg 300w" sizes="(max-width: 766px) 100vw, 766px" /></p>
+<ul>
+<li class="correct_answer">Tester la connectivité de couche 3 entre les routeurs directement connectés.</li>
+<li>Mettre en œuvre la commande network 192.168.255.0 0.0.0.3 area 0 sur le routeur R1.</li>
+<li>Débrancher le lien série entre le routeur R1 et le routeur R2.</li>
+<li>Désactiver OSPFv2.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Pour établir une relation de voisinage OSPFv2 entre deux routeurs, la connectivité de couche 3 est nécessaire. Une requête ping qui aboutit indique qu&rsquo;une interface de routeur est active et peut établir une contiguïté de voisinage OSPF.</p></div><br />
+<strong>31. Un utilisateur ne peut pas accéder au site web lorsqu&rsquo;il saisit http://www.cisco.com à partir d&rsquo;un navigateur, mais il peut accéder à ce site en tapant http://72.163.4.161 . Quel est le problème?</strong></p>
+<ul>
+<li>passerelle par défaut</li>
+<li class="correct_answer">DNS</li>
+<li>La pile de protocoles TCP/IP</li>
+<li>DHCP</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le service DNS (Domain Name Service) est utilisé pour traduire une adresse Web en adresse IP. L&rsquo;adresse du serveur DNS est fournie aux ordinateurs hôtes via le DHCP.</p></div><br />
+<strong>32. Examinez l&rsquo;illustration. R1 et R3 sont interconnectés par le biais de l&rsquo;interface série locale 0/0/0. Pourquoi ne forment-ils pas une contiguïté ?</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2253" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020.jpg" alt="" width="475" height="319" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020.jpg 475w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020-150x101.jpg 150w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020-450x302.jpg 450w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020-300x200.jpg 300w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020-20x13.jpg 20w" sizes="(max-width: 475px) 100vw, 475px" /></p>
+<ul>
+<li>Ils présentent des processus de routage différents.</li>
+<li>Les interfaces de connexion sont configurées comme étant passives.</li>
+<li>Ils présentent des ID de routeur différents.</li>
+<li class="correct_answer">Ils se trouvent dans des sous-réseaux différents.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Les routeurs doivent se trouver dans le même sous-réseau pour former une contiguïté. Les processus de routage peuvent être différents sur chaque routeur. Les ID de routeur doivent être différents pour les routeurs qui se trouvent dans le même domaine de routage. Les interfaces ne sont pas passives.</p></div><br />
+<strong>33. Quel type de trafic est décrit comme nécessitant une latence ne dépassant pas 150 millisecondes (ms)?</strong></p>
+<ul>
+<li class="correct_answer">voix</li>
+<li>Vidéo</li>
+<li>données</li>
+</ul>
+<p><strong>34. Un directeur de réseau souhaite afficher la quantité de mémoire disponible et libre, le type de système de fichiers et ses autorisations. Quelle commande l&rsquo;administrateur doit-il utiliser sur un routeur Cisco?</strong></p>
+<ul>
+<li>clock timezone PST -7</li>
+<li>ntp server 10.10.14.9</li>
+<li>lldp enable</li>
+<li class="correct_answer">show file systems</li>
+</ul>
+<p><strong>35. uand la QoS est implémentée dans un réseau convergé, deux facteurs peuvent être contrôlés pour l&rsquo;amélioration de la performance du réseau pour le trafic en temps réel. Lesquels ? (Choisissez deux propositions.)</strong></p>
+<ul>
+<li>le routage de paquets</li>
+<li>l&rsquo;adressage des paquets</li>
+<li class="correct_answer">gigue</li>
+<li>la vitesse de la liaison</li>
+<li class="correct_answer">délai</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le délai est la latence entre l&rsquo;appareil qui envoie et l&rsquo;appareil qui reçoit. La gigue est la variation du délai entre les paquets reçus. La prise en charge du trafic vocal et vidéo en temps réel nécessite de contrôler le délai comme la gigue.</p></div><br />
+<strong>36. Reportez-vous à l&rsquo;illustration. Lequel des trois images Cisco IOS affichées va charger dans la RAM?</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2272" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103702.jpg" alt="" width="845" height="208" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103702.jpg 845w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103702-300x74.jpg 300w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103702-768x189.jpg 768w" sizes="(max-width: 845px) 100vw, 845px" /></p>
+<ul>
+<li>Le routeur sélectionne la troisième image Cisco IOS car il s&rsquo;agit de l&rsquo;image IOS la plus récente.</li>
+<li>Le routeur sélectionne une image en fonction de la valeur du registre de configuration.</li>
+<li>Le routeur sélectionne la deuxième image Cisco IOS car il s&rsquo;agit de la plus petite image IOS.</li>
+<li class="correct_answer">Le routeur sélectionne une image en fonction de la commande boot system dans la configuration.</li>
+<li>Le routeur sélectionne la troisième image Cisco IOS car elle contient l&rsquo;image advipservicesk9.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Lors de la mise à niveau ou du test de différentes versions d&rsquo;IOS, la commande boot system est utilisée pour sélectionner l&rsquo;image utilisée pour démarrer le périphérique Cisco.</p></div><br />
+<strong>37. Reportez-vous à l&rsquo;illustration. Quels sont les deux types d&rsquo;appareils connectés à R1? (Choisissez deux réponses.)</strong><br />
+<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-2273" src="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103834.jpg" alt="" width="792" height="172" srcset="https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103834.jpg 792w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103834-300x65.jpg 300w, https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-10_103834-768x167.jpg 768w" sizes="(max-width: 792px) 100vw, 792px" /></p>
+<ul>
+<li>Pont de route source</li>
+<li class="correct_answer">commutateur</li>
+<li class="correct_answer">routeur</li>
+<li>répéteur</li>
+<li>concentrateur</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Les capacités des périphériques affichés par la sortie montrent qu&rsquo;ils sont un routeur de la série Cisco 2811, un routeur de la série Cisco 1941 et un commutateur Cisco 2960.</p></div><br />
+<strong>38. En cas de défaillance, quelle est l&rsquo;architecture réseau qui permettrait de réduire l&rsquo;étendue des perturbations affectant le réseau ?</strong></p>
+<ul>
+<li>La réduction du nombre de connexions et d&rsquo;appareils redondants dans le cœur du réseau</li>
+<li>L&rsquo;installation exclusive d&rsquo;équipements haut de gamme sur l&rsquo;ensemble du réseau</li>
+<li class="correct_answer">Le déploiement des commutateurs de couche de distribution par paires et la répartition des connexions des commutateurs de la couche d&rsquo;accès entre eux</li>
+<li>La configuration de tous les appareils de la couche d&rsquo;accès pour qu&rsquo;ils partagent une passerelle unique</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> L&rsquo;un des moyens permettant de limiter l&rsquo;impact d&rsquo;une défaillance sur le réseau consiste à implémenter la redondance. Pour ce faire, il est possible de déployer des commutateurs de couche de distribution redondants et de répartir entre eux les connexions des commutateurs de la couche d&rsquo;accès. Cela permet de créer un bloc de commutation. Les défaillances qui surviennent dans un bloc de commutation se limitent à celui-ci et ne nuisent donc pas à l&rsquo;ensemble du réseau.</p></div><br />
+<strong>39. Quelle action doit être entreprise lors de la planification de la redondance sur une conception de réseau hiérarchique ?</strong></p>
+<ul>
+<li>mettre en œuvre STP portfast entre les commutateurs sur le réseau</li>
+<li class="correct_answer">ajouter d&rsquo;autres chemins physiques pour permettre l&rsquo;acheminement des données sur le réseau</li>
+<li>remplacer immédiatement un module, un service ou un périphérique non fonctionnel sur un réseau</li>
+<li>acheter continuellement du matériel de sauvegarde pour le réseau</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Une méthode d&rsquo;implémentation de la redondance est la redondance de chemin, qui consiste en l&rsquo;installation de chemins physiques alternatifs pour l&rsquo;acheminement des données sur le réseau. Les liaisons redondantes dans un réseau commuté prennent en charge la haute disponibilité et peuvent être utilisées pour l&rsquo;équilibrage de la charge, diminuant ainsi l&rsquo;encombrement du réseau.</p></div><br />
+<strong>40. Quels sont les deux avantages de l&rsquo;extension de la connectivité de la couche d&rsquo;accès aux utilisateurs par le biais d&rsquo;un support sans fil ? (Choisissez deux propositions.)</strong></p>
+<ul>
+<li>augmentation des options de gestion du réseau</li>
+<li class="correct_answer">coûts réduits</li>
+<li>augmentation de la disponibilité de la bande passante</li>
+<li>réduction du nombre de points de défaillance critiques</li>
+<li class="correct_answer">davantage de flexibilité</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> La connectivité sans fil au niveau de la couche d&rsquo;accès offre une plus grande flexibilité, des coûts réduits, sans oublier la possibilité de se développer et de s&rsquo;adapter à l&rsquo;évolution des besoins professionnels. L&rsquo;utilisation de routeurs sans fil et de points d&rsquo;accès peut entraîner l&rsquo;augmentation du nombre de points de défaillance centraux. Les routeurs sans fil et les points d&rsquo;accès ne permettent pas d&rsquo;augmenter la disponibilité de la bande passante.</p></div><br />
+<strong>41. Quel est le meilleur moment pour mesurer les opérations réseau afin d&rsquo;établir les performances de référence du réseau ?</strong></p>
+<ul>
+<li class="correct_answer">À la même heure chaque jour sur une période définie de jours ouvrables moyens pour que les modèles de trafic standard puissent être définis</li>
+<li>Pendant des périodes calmes de vacances pour pouvoir déterminer le niveau de trafic non lié aux données</li>
+<li>De manière aléatoire sur une période de 10 semaines afin de détecter les niveaux de trafic anormaux</li>
+<li>Dès qu&rsquo;une utilisation élevée du réseau est détectée, pour que les performances du réseau sous pression puissent être observées</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> L&rsquo;objectif de l&rsquo;établissement de performances de référence du réseau est de fournir une référence relative à l&rsquo;utilisation normale ou moyenne du réseau, afin de permettre la détection et l&rsquo;analyse des anomalies du trafic de données. Les modes de fonctionnement du réseau qui ne sont pas classiques ou normaux ne peuvent pas être utilisés pour établir des performances de référence du réseau.</p></div><br />
+<strong>42. Quel principe s&rsquo;applique lorsqu&rsquo;un technicien réseau résout une panne réseau à l&rsquo;aide de la méthode « diviser et conquérir » ?</strong></p>
+<ul>
+<li>Une fois que le fonctionnement d&rsquo;un composant sur une certaine couche a été vérifié, les tests peuvent ensuite être effectués sur n&rsquo;importe quelle autre couche.</li>
+<li class="correct_answer">Une fois que le fonctionnement des composants d&rsquo;une certaine couche a été vérifié, on peut supposer que les composants des couches inférieures sont également opérationnels.</li>
+<li>Les tests sont effectués sur toutes les couches du modèle OSI jusqu&rsquo;à l&rsquo;identification d&rsquo;un composant défaillant.</li>
+<li>Les tests sont effectués sur les couches 7 et 1, puis sur les couches 6 et 2, etc., en progressant vers le milieu de la pile jusqu&rsquo;à ce que toutes les couches soient vérifiées.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Dans les modèles en couches OSI et TCP/IP, les couches supérieures dépendent des couches inférieures. Ainsi, lors du dépannage, si une couche donnée semble fonctionner correctement, on peut supposer que toutes les couches situées en dessous d&rsquo;elle fonctionnent également correctement.</p></div><br />
+<strong>43. Quel outil de dépannage un administrateur réseau utiliserait-il pour vérifier l&rsquo;en-tête de couche 2 des trames quittant un hôte précis ?</strong></p>
+<ul>
+<li>Outil de planification initiale</li>
+<li class="correct_answer">Analyseur de protocole</li>
+<li>Base de connaissances</li>
+<li>CiscoView</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Un analyseur de protocole, tel que Wireshark, est capable d&rsquo;afficher les en-têtes de données au niveau de n&rsquo;importe quelle couche du modèle OSI.</p></div><br />
+<strong>44. Quel type de trafic est décrit comme ayant tendance à être imprévisible, incohérent et surbaissant?</strong></p>
+<ul>
+<li>données</li>
+<li class="correct_answer">vidéo</li>
+<li>voix</li>
+</ul>
+<p><strong>45. Un directeur de réseau veut s&rsquo;assurer que le périphérique ignore le fichier de configuration de démarrage pendant le démarrage et contourne les mots de passe requis. Quelle commande l&rsquo;administrateur doit-il utiliser sur un routeur Cisco?</strong></p>
+<ul>
+<li>copy running-config tftp</li>
+<li>copie usbflash0: /R1-Config</li>
+<li>config-register 0x2102</li>
+<li class="correct_answer">confreg 0x2142</li>
+</ul>
+<p><strong>46. Un directeur de réseau souhaite configurer le routeur pour charger une nouvelle image à partir de flash pendant le démarrage. Quelle commande l&rsquo;administrateur doit-il utiliser sur un routeur Cisco?</strong></p>
+<ul>
+<li>copy flash: tftp:</li>
+<li>clock set 14:25:00 nov 13 2018</li>
+<li>copy tftp startup-config</li>
+<li class="correct_answer">boot system</li>
+</ul>
+<p><strong>47. Un administrateur réseau configure un routeur avec la séquence de commandes :</strong></p>
+<pre>R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin
+R1(config)# boot system rom</pre>
+<p><strong>Quel est l&rsquo;impact de la séquence de commandes ?</strong></p>
+<ul>
+<li>Le routeur cherchera et chargera une image valide de l&rsquo;IOS dans l&rsquo;ordre suivant : mémoire Flash, TFTP et mémoire morte (ROM).</li>
+<li>Le routeur copiera l&rsquo;image de l&rsquo;IOS à partir du serveur TFTP, puis redémarrera le système.</li>
+<li>Lors du redémarrage suivant, le routeur va charger l&rsquo;image de l&rsquo;IOS à partir de la mémoire morte (ROM).</li>
+<li class="correct_answer">Le routeur chargera l&rsquo;IOS à partir du serveur TFTP. Si le chargement de l&rsquo;image échoue, le routeur chargera l&rsquo;image de l&rsquo;IOS à partir de la mémoire morte (ROM).</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> La commande <b>boot system </b>est une commande de configuration globale permettant à l&rsquo;utilisateur de spécifier la source pour l&rsquo;image de logiciel Cisco IOS à charger. Dans ce cas, le routeur est configuré pour démarrer à partir de l&rsquo;image IOS qui est stockée sur le serveur TFTP. Le routeur utilisera l&rsquo;image ROMmon se trouvant dans la mémoire morte (ROM) s&rsquo;il ne parvient pas à trouver le serveur TFTP ou s&rsquo;il ne parvient pas à charger une image valide à partir du serveur TFTP.</p></div><br />
+<strong>48. Reportez-vous à l&rsquo;illustration.Pourquoi les routeurs R1 et R2 ne peuvent-ils pas établir une contiguïté OSPF ?</strong></p>
+<p><img decoding="async" src="https://ccnareponses.com/wp-content/uploads/2024/12/abi386467n1v4.jpg" alt="Abi386467n1v4" /></p>
+<ul>
+<li>Un routeur dorsal (backbone) ne peut pas établir une contiguïté avec un routeur ABR.</li>
+<li>Les valeurs d&rsquo;ID de routeur ne sont pas les mêmes dans les deux routeurs.</li>
+<li class="correct_answer">Les interfaces série ne se trouvent pas dans la même zone.</li>
+<li>Les numéros de processus ne sont pas les mêmes dans les deux routeurs.</li>
+</ul>
+<div class="message_box announce"><p><b>Explication:</b> Sur le routeur R1, le réseau 192.168.10.0/30 est défini dans la mauvaise zone (zone 1). Il doit être défini dans la zone 0 afin d&rsquo;établir la contiguïté avec le routeur R2, qui a le réseau 192.168.10.0/30 défini dans la zone 0.</p></div>
+<p><strong>49. Pourquoi la QoS est-elle un élément important dans un réseau convergé qui combine communications vocales, vidéo et de données ?</strong></p>
+<ul>
+<li>Les communications de données sont sensibles à la gigue.</li>
+<li class="correct_answer">Les communications vocales et vidéo sont plus sensibles à la latence.</li>
+<li>Les appareils anciens ne peuvent pas transmettre de la voix et de la vidéo sans QoS.</li>
+<li>Les communications de données doivent être la première priorité.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Sans mécanismes de QoS en place, les paquets sensibles aux retards, le trafic vocal et vidéo par exemple, seront rejetés à la même fréquence que le trafic de messagerie et de navigation en ligne.</p></div><br />
+<strong>50. Pour quel type de trafic ne peut-on pas utiliser les outils de prévention de congestion ?</strong></p>
+<ul>
+<li class="correct_answer">UDP</li>
+<li>TCP</li>
+<li>ICMP</li>
+<li>IP</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Les techniques de mise en file d&rsquo;attente et de compression permettent de minimiser et de prévenir la perte de paquets UDP, mais il n&rsquo;existe pas d&rsquo;outil de prévention de congestion pour le trafic UDP (User Datagram Protocol).</p></div><br />
+<strong>51. Quel type de trafic est décrit comme prévisible et fluide?</strong></p>
+<ul>
+<li class="correct_answer">Voix</li>
+<li>Vidéo</li>
+<li>Données</li>
+</ul>
+<p><strong>52. Quel type de trafic est décrit comme étant constitué d&rsquo;un trafic dont la priorité est inférieure s&rsquo;il n&rsquo;est pas critique pour la mission?</strong></p>
+<ul>
+<li>voix</li>
+<li>vidéo</li>
+<li class="correct_answer">données</li>
+</ul>
+<p><strong>53. Un directeur de réseau souhaite déterminer la taille du fichier image Cisco IOS sur le périphérique réseau. Quelle commande l&rsquo;administrateur doit-il utiliser sur un routeur Cisco?</strong></p>
+<ul>
+<li class="correct_answer">show flash:0</li>
+<li>ntp server 10.10.14.9</li>
+<li>clock timezone PST -7</li>
+<li>lldp enable</li>
+</ul>
+<p><strong>54. Le trafic vocal a ses caractéristiques propres. Citez-en deux. (Choisissez deux propositions.)</strong></p>
+<ul>
+<li class="correct_answer">La latence du trafic vocal ne doit pas excéder 150 ms.</li>
+<li class="correct_answer">Les paquets de trafic vocal ne sont pas retransmis.</li>
+<li>Le trafic vocal est imprévisible et hétérogène.</li>
+<li>Le trafic vocal nécessite au moins 384 Kbit/s de bande passante.</li>
+<li>Le trafic vocal consomme beaucoup des ressources du réseau.</li>
+</ul>
+<p><div class="message_box announce"><p><b>Explication:</b> Le trafic vocal ne consomme pas beaucoup des ressources du réseau comme la bande passante. Cependant, il est très sensible au délai et les paquets abandonnés ne peuvent pas être retransmis. Pour une bonne qualité vocale, le niveau de latence doit toujours être inférieur à 150 millisecondes.</p></div><br />
+<strong>55. Quel type de trafic est décrit comme ayant un volume élevé de données par paquet?</strong></p>
+<ul>
+<li class="correct_answer">Vidéo</li>
+<li>Voix</li>
+<li>Données</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+				
+		
+		
+		
+	</div>
+</div>
+	
+			</article>
+
+			
+
+	<section class="navigate-posts">
+	
+		<div class="previous">
+					<span class="main-color title"><i class="tsi tsi-chevron-left"></i> Previous Article</span><span class="link"><a href="https://ccnareponses.com/modules-6-8-examen-des-concepts-wan/" rel="prev">Modules 6 &#8211; 8: Examen des concepts WAN Réponses Français</a></span>
+				</div>
+		<div class="next">
+					<span class="main-color title">Next Article <i class="tsi tsi-chevron-right"></i></span><span class="link"><a href="https://ccnareponses.com/modules-13-14-examen-des-technologies-de-reseau-emergentes-reponses/" rel="next">Modules 13 &#8211; 14: Examen des technologies de réseau émergentes Réponses</a></span>
+				</div>		
+	</section>
+
+
+
+	<section class="related-posts">
+							
+							
+				<div class="block-head block-head-ac block-head-c is-left">
+
+					<h4 class="heading">Articles liés</h4>					
+									</div>
+				
+			
+				<section class="block-wrap block-grid cols-gap-sm mb-none" data-id="1">
+
+				
+			<div class="block-content">
+					
+	<div class="loop loop-grid loop-grid-sm grid grid-3 md:grid-2 xs:grid-1">
+
+					
+<article class="l-post grid-post grid-sm-post">
+
+	
+			<div class="media">
+
+		
+		</div>
+	
+
+	
+		<div class="content">
+
+			<div class="post-meta post-meta-a has-below"><h4 class="is-title post-title"><a href="https://ccnareponses.com/14-6-10-verifiez-votre-comprehension-ibn-et-cisco-dna-center/">14.6.10 Vérifiez votre compréhension &#8211; IBN et Cisco DNA Center</a></h4><div class="post-meta-items meta-below"><span class="meta-item date"><span class="date-link"><time class="post-date" datetime="2025-04-24T13:43:33+02:00">24/04/2025</time></span></span></div></div>			
+			
+			
+		</div>
+
+	
+</article>					
+<article class="l-post grid-post grid-sm-post">
+
+	
+			<div class="media">
+
+		
+		</div>
+	
+
+	
+		<div class="content">
+
+			<div class="post-meta post-meta-a has-below"><h4 class="is-title post-title"><a href="https://ccnareponses.com/14-5-6-verifiez-votre-comprehension-gestion-de-la-configuration/">14.5.6 Vérifiez votre compréhension &#8211; Gestion de La Configuration</a></h4><div class="post-meta-items meta-below"><span class="meta-item date"><span class="date-link"><time class="post-date" datetime="2025-04-24T13:42:15+02:00">24/04/2025</time></span></span></div></div>			
+			
+			
+		</div>
+
+	
+</article>					
+<article class="l-post grid-post grid-sm-post">
+
+	
+			<div class="media">
+
+		
+		</div>
+	
+
+	
+		<div class="content">
+
+			<div class="post-meta post-meta-a has-below"><h4 class="is-title post-title"><a href="https://ccnareponses.com/14-4-7-verifiez-votre-comprehension-rest/">14.4.7 Vérifiez votre compréhension &#8211; REST</a></h4><div class="post-meta-items meta-below"><span class="meta-item date"><span class="date-link"><time class="post-date" datetime="2025-04-24T13:35:31+02:00">24/04/2025</time></span></span></div></div>			
+			
+			
+		</div>
+
+	
+</article>		
+	</div>
+
+		
+			</div>
+
+		</section>
+		
+	</section>			
+			<div class="comments">
+				    <div class="wpdiscuz_top_clearing"></div>
+    <div id='comments' class='comments-area'><div id='respond' style='width: 0;height: 0;clear: both;margin: 0;padding: 0;'></div>    <div id="wpdcom" class="wpdiscuz_unauth wpd-default wpd-layout-1 wpd-comments-open">
+                    <div class="wc_social_plugin_wrapper">
+                            </div>
+            <div class="wpd-form-wrap">
+                <div class="wpd-form-head">
+                                            <div class="wpd-sbs-toggle">
+                            <i class="far fa-envelope"></i> <span
+                                class="wpd-sbs-title">S’abonner</span>
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                                            <div class="wpd-auth">
+                                                <div class="wpd-login">
+                                                    </div>
+                    </div>
+                </div>
+                                                    <div class="wpdiscuz-subscribe-bar wpdiscuz-hidden">
+                                                    <form action="https://ccnareponses.com/wp-admin/admin-ajax.php?action=wpdAddSubscription"
+                                  method="post" id="wpdiscuz-subscribe-form">
+                                <div class="wpdiscuz-subscribe-form-intro">Notification pour </div>
+                                <div class="wpdiscuz-subscribe-form-option"
+                                     style="width:40%;">
+                                    <select class="wpdiscuz_select" name="wpdiscuzSubscriptionType">
+                                                                                    <option value="post">nouveaux commentaires de suivi</option>
+                                                                                                                                <option
+                                                value="all_comment" >nouvelles réponses à mes commentaires</option>
+                                                                                </select>
+                                </div>
+                                                                    <div class="wpdiscuz-item wpdiscuz-subscribe-form-email">
+                                        <input class="email" type="email" name="wpdiscuzSubscriptionEmail"
+                                               required="required" value=""
+                                               placeholder="E-mail"/>
+                                    </div>
+                                                                    <div class="wpdiscuz-subscribe-form-button">
+                                    <input id="wpdiscuz_subscription_button" class="wpd-prim-button wpd_not_clicked"
+                                           type="submit"
+                                           value="&rsaquo;"
+                                           name="wpdiscuz_subscription_button"/>
+                                </div>
+                                <input type="hidden" id="wpdiscuz_subscribe_form_nonce" name="wpdiscuz_subscribe_form_nonce" value="bde8572dd6" /><input type="hidden" name="_wp_http_referer" value="/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/" />                            </form>
+                                                </div>
+                            <div
+            class="wpd-form wpd-form-wrapper wpd-main-form-wrapper" id='wpd-main-form-wrapper-0_0'>
+                                        <form  method="post" enctype="multipart/form-data" data-uploading="false" class="wpd_comm_form wpd_main_comm_form"                >
+                                        <div class="wpd-field-comment">
+                        <div class="wpdiscuz-item wc-field-textarea">
+                            <div class="wpdiscuz-textarea-wrap ">
+                                                                                                        <div class="wpd-avatar">
+                                        <img alt='guest' src='https://secure.gravatar.com/avatar/f69eec3703def209a3de94edb500b4cd5974882964d4322a56ce436f0b4fd628?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/f69eec3703def209a3de94edb500b4cd5974882964d4322a56ce436f0b4fd628?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' decoding='async'/>                                    </div>
+                                                <div id="wpd-editor-wraper-0_0" style="display: none;">
+                <div id="wpd-editor-char-counter-0_0"
+                     class="wpd-editor-char-counter"></div>
+                <label style="display: none;" for="wc-textarea-0_0">Label</label>
+                <textarea id="wc-textarea-0_0" name="wc_comment"
+                          class="wc_comment wpd-field"></textarea>
+                <div id="wpd-editor-0_0"></div>
+                        <div id="wpd-editor-toolbar-0_0">
+                            <button title="En gras"
+                        class="ql-bold"  ></button>
+                                <button title="Italique"
+                        class="ql-italic"  ></button>
+                                <button title="Souligné"
+                        class="ql-underline"  ></button>
+                                <button title="Barré"
+                        class="ql-strike"  ></button>
+                                <button title="Liste ordonnée"
+                        class="ql-list" value='ordered' ></button>
+                                <button title="Liste non ordonnée"
+                        class="ql-list" value='bullet' ></button>
+                                <button title="Bloc de citation"
+                        class="ql-blockquote"  ></button>
+                                <button title="Bloc de code"
+                        class="ql-code-block"  ></button>
+                                <button title="Lien"
+                        class="ql-link"  ></button>
+                                <button title="Code source"
+                        class="ql-sourcecode"  data-wpde_button_name='sourcecode'>{}</button>
+                                <button title="Spoiler"
+                        class="ql-spoiler"  data-wpde_button_name='spoiler'>[+]</button>
+                            <div class="wpd-editor-buttons-right">
+                <span class='wmu-upload-wrap' wpd-tooltip='Attacher une image à ce commentaire' wpd-tooltip-position='left'><label class='wmu-add'><i class='far fa-image'></i><input style='display:none;' class='wmu-add-files' type='file' name='wmu_files'  accept='image/*'/></label></span>            </div>
+        </div>
+                    </div>
+                                        </div>
+                        </div>
+                    </div>
+                    <div class="wpd-form-foot" style='display:none;'>
+                        <div class="wpdiscuz-textarea-foot">
+                                                        <div class="wpdiscuz-button-actions"><div class='wmu-action-wrap'><div class='wmu-tabs wmu-images-tab wmu-hide'></div><div class='wmu-tabs wmu-videos-tab wmu-hide'></div><div class='wmu-tabs wmu-files-tab wmu-hide'></div></div></div>
+                        </div>
+                                <div class="wpd-form-row">
+                    <div class="wpd-form-col-left">
+                        <div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i
+                            class="fas fa-user"></i>
+                    </div>
+                                    <input id="wc_name-0_0" value="" required='required' aria-required='true'                       class="wc_name wpd-field" type="text"
+                       name="wc_name"
+                       placeholder="Nom*"
+                       maxlength="50" pattern='.{3,50}'                       title="">
+                <label for="wc_name-0_0"
+                       class="wpdlb">Name*</label>
+                            </div>
+                        <div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i
+                            class="fas fa-at"></i>
+                    </div>
+                                    <input id="wc_email-0_0" value="" required='required' aria-required='true'                       class="wc_email wpd-field" type="email"
+                       name="wc_email"
+                       placeholder="Email*"/>
+                <label for="wc_email-0_0"
+                       class="wpdlb">Email*</label>
+                            </div>
+                    </div>
+                <div class="wpd-form-col-right">
+                    <div class="wc-field-submit">
+                                                <label class="wpd_label"
+                           wpd-tooltip="Notifier des nouvelles réponses à tous mes commentaires">
+                        <input id="wc_notification_new_comment-0_0"
+                               class="wc_notification_new_comment-0_0 wpd_label__checkbox"
+                               value="comment" type="checkbox"
+                               name="wpdiscuz_notification_type" />
+                        <span class="wpd_label__text">
+                                <span class="wpd_label__check">
+                                    <i class="fas fa-bell wpdicon wpdicon-on"></i>
+                                    <i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+                                </span>
+                            </span>
+                    </label>
+                            <input id="wpd-field-submit-0_0"
+                   class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit"
+                   name="submit" value="Post Comment"
+                   aria-label="Post Comment"/>
+        </div>
+                </div>
+                    <div class="clearfix"></div>
+        </div>
+                            </div>
+                                        <input type="hidden" class="wpdiscuz_unique_id" value="0_0"
+                           name="wpdiscuz_unique_id">
+                    <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="0e99df21fd" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="90"/><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" defer></script><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>                </form>
+                        </div>
+                <div id="wpdiscuz_hidden_secondary_form" style="display: none;">
+                    <div
+            class="wpd-form wpd-form-wrapper wpd-secondary-form-wrapper" id='wpd-secondary-form-wrapper-wpdiscuzuniqueid' style='display: none;'>
+                            <div class="wpd-secondary-forms-social-content"></div>
+                <div class="clearfix"></div>
+                                        <form  method="post" enctype="multipart/form-data" data-uploading="false" class="wpd_comm_form wpd-secondary-form-wrapper"                >
+                                        <div class="wpd-field-comment">
+                        <div class="wpdiscuz-item wc-field-textarea">
+                            <div class="wpdiscuz-textarea-wrap ">
+                                                                                                        <div class="wpd-avatar">
+                                        <img alt='guest' src='https://secure.gravatar.com/avatar/6e576766ab5a797b4c4f4fef04de1f1e1c5d3146a4ec04567e8bfba7e1e5f514?s=56&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/6e576766ab5a797b4c4f4fef04de1f1e1c5d3146a4ec04567e8bfba7e1e5f514?s=112&#038;d=mm&#038;r=g 2x' class='avatar avatar-56 photo' height='56' width='56' decoding='async'/>                                    </div>
+                                                <div id="wpd-editor-wraper-wpdiscuzuniqueid" style="display: none;">
+                <div id="wpd-editor-char-counter-wpdiscuzuniqueid"
+                     class="wpd-editor-char-counter"></div>
+                <label style="display: none;" for="wc-textarea-wpdiscuzuniqueid">Label</label>
+                <textarea id="wc-textarea-wpdiscuzuniqueid" name="wc_comment"
+                          class="wc_comment wpd-field"></textarea>
+                <div id="wpd-editor-wpdiscuzuniqueid"></div>
+                        <div id="wpd-editor-toolbar-wpdiscuzuniqueid">
+                            <button title="En gras"
+                        class="ql-bold"  ></button>
+                                <button title="Italique"
+                        class="ql-italic"  ></button>
+                                <button title="Souligné"
+                        class="ql-underline"  ></button>
+                                <button title="Barré"
+                        class="ql-strike"  ></button>
+                                <button title="Liste ordonnée"
+                        class="ql-list" value='ordered' ></button>
+                                <button title="Liste non ordonnée"
+                        class="ql-list" value='bullet' ></button>
+                                <button title="Bloc de citation"
+                        class="ql-blockquote"  ></button>
+                                <button title="Bloc de code"
+                        class="ql-code-block"  ></button>
+                                <button title="Lien"
+                        class="ql-link"  ></button>
+                                <button title="Code source"
+                        class="ql-sourcecode"  data-wpde_button_name='sourcecode'>{}</button>
+                                <button title="Spoiler"
+                        class="ql-spoiler"  data-wpde_button_name='spoiler'>[+]</button>
+                            <div class="wpd-editor-buttons-right">
+                <span class='wmu-upload-wrap' wpd-tooltip='Attacher une image à ce commentaire' wpd-tooltip-position='left'><label class='wmu-add'><i class='far fa-image'></i><input style='display:none;' class='wmu-add-files' type='file' name='wmu_files'  accept='image/*'/></label></span>            </div>
+        </div>
+                    </div>
+                                        </div>
+                        </div>
+                    </div>
+                    <div class="wpd-form-foot" style='display:none;'>
+                        <div class="wpdiscuz-textarea-foot">
+                                                        <div class="wpdiscuz-button-actions"><div class='wmu-action-wrap'><div class='wmu-tabs wmu-images-tab wmu-hide'></div><div class='wmu-tabs wmu-videos-tab wmu-hide'></div><div class='wmu-tabs wmu-files-tab wmu-hide'></div></div></div>
+                        </div>
+                                <div class="wpd-form-row">
+                    <div class="wpd-form-col-left">
+                        <div class="wpdiscuz-item wc_name-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i
+                            class="fas fa-user"></i>
+                    </div>
+                                    <input id="wc_name-wpdiscuzuniqueid" value="" required='required' aria-required='true'                       class="wc_name wpd-field" type="text"
+                       name="wc_name"
+                       placeholder="Nom*"
+                       maxlength="50" pattern='.{3,50}'                       title="">
+                <label for="wc_name-wpdiscuzuniqueid"
+                       class="wpdlb">Name*</label>
+                            </div>
+                        <div class="wpdiscuz-item wc_email-wrapper wpd-has-icon">
+                                    <div class="wpd-field-icon"><i
+                            class="fas fa-at"></i>
+                    </div>
+                                    <input id="wc_email-wpdiscuzuniqueid" value="" required='required' aria-required='true'                       class="wc_email wpd-field" type="email"
+                       name="wc_email"
+                       placeholder="Email*"/>
+                <label for="wc_email-wpdiscuzuniqueid"
+                       class="wpdlb">Email*</label>
+                            </div>
+                    </div>
+                <div class="wpd-form-col-right">
+                    <div class="wc-field-submit">
+                                                <label class="wpd_label"
+                           wpd-tooltip="Notifier des nouvelles réponses à tous mes commentaires">
+                        <input id="wc_notification_new_comment-wpdiscuzuniqueid"
+                               class="wc_notification_new_comment-wpdiscuzuniqueid wpd_label__checkbox"
+                               value="comment" type="checkbox"
+                               name="wpdiscuz_notification_type" />
+                        <span class="wpd_label__text">
+                                <span class="wpd_label__check">
+                                    <i class="fas fa-bell wpdicon wpdicon-on"></i>
+                                    <i class="fas fa-bell-slash wpdicon wpdicon-off"></i>
+                                </span>
+                            </span>
+                    </label>
+                            <input id="wpd-field-submit-wpdiscuzuniqueid"
+                   class="wc_comm_submit wpd_not_clicked wpd-prim-button" type="submit"
+                   name="submit" value="Post Comment"
+                   aria-label="Post Comment"/>
+        </div>
+                </div>
+                    <div class="clearfix"></div>
+        </div>
+                            </div>
+                                        <input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid"
+                           name="wpdiscuz_unique_id">
+                    <p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="0e99df21fd" /></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="211"/><script>document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p>                </form>
+                        </div>
+                </div>
+                    </div>
+                        <div id="wpd-threads" class="wpd-thread-wrapper">
+                <div class="wpd-thread-head">
+                    <div class="wpd-thread-info "
+                         data-comments-count="0">
+                        <span class='wpdtc' title='0'>0</span> Comments                    </div>
+                                        <div class="wpd-space"></div>
+                    <div class="wpd-thread-filter">
+                                                    <div class="wpd-filter wpdf-reacted wpd_not_clicked wpdiscuz-hidden"
+                                 wpd-tooltip="Commentaire avec le plus de réactions">
+                                <i class="fas fa-bolt"></i></div>
+                                                        <div class="wpd-filter wpdf-hottest wpd_not_clicked wpdiscuz-hidden"
+                                 wpd-tooltip="Fil de commentaire le plus chaud">
+                                <i class="fas fa-fire"></i></div>
+                                                        <div class="wpd-filter wpdf-sorting wpdiscuz-hidden">
+                                                                        <span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc wpdiscuz-sort-button-active"
+                                              data-sorting="newest">Le plus récent</span>
+                                                                        <i class="fas fa-sort-down"></i>
+                                <div class="wpdiscuz-sort-buttons">
+                                                                            <span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc"
+                                              data-sorting="oldest">Le plus ancien</span>
+                                                                                <span class="wpdiscuz-sort-button wpdiscuz-vote-sort-up"
+                                              data-sorting="by_vote">Le plus populaire</span>
+                                                                        </div>
+                            </div>
+                                                </div>
+                </div>
+                <div class="wpd-comment-info-bar">
+                    <div class="wpd-current-view"><i
+                            class="fas fa-quote-left"></i> Commentaires en ligne                    </div>
+                    <div class="wpd-filter-view-all">Afficher tous les commentaires</div>
+                </div>
+                                <div class="wpd-thread-list">
+                                        <div class="wpdiscuz-comment-pagination">
+                                            </div>
+                </div>
+            </div>
+                </div>
+        </div>
+    <div id="wpdiscuz-loading-bar"
+         class="wpdiscuz-loading-bar-unauth"></div>
+    <div id="wpdiscuz-comment-message"
+         class="wpdiscuz-comment-message-unauth"></div>
+    			</div>
+
+		</div>
+	</div>
+	
+			
+	
+	<aside class="col-4 main-sidebar has-sep">
+	
+			<div class="inner">
+		
+			<div id="polylang-2" class="widget widget_polylang"><ul>
+	<li class="lang-item lang-item-59 lang-item-fr current-lang lang-item-first"><a lang="fr-FR" hreflang="fr-FR" href="https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/" aria-current="true"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAMAAABBPP0LAAAAbFBMVEVzldTg4ODS0tLxDwDtAwDjAADD0uz39/fy8vL3k4nzgna4yOixwuXu7u7s6+zn5+fyd2rvcGPtZljYAABrjNCpvOHrWkxegsqfs93NAADpUUFRd8THAABBa7wnVbERRKa8vLyxsLCoqKigoKClCvcsAAAAXklEQVR4AS3JxUEAQQAEwZo13Mk/R9w5/7UERJCIGIgj5qfRJZEpPyNfCgJTjMR1eRRnJiExFJz5Mf1PokWr/UztIjRGQ3V486u0HO55m634U6dMcf0RNPfkVCTvKjO16xHA8miowAAAAABJRU5ErkJggg==" alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">Français</span></a></li>
+	<li class="lang-item lang-item-62 lang-item-de"><a lang="de-DE" hreflang="de-DE" href="https://ccnareponses.com/de/kontrollpruefung-optimieren-ueberwachen-und-fehlerbehebung-in-netzwerken-antworten/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAABLElEQVR4AY2QgUZEQRSGz9ydmzbYkBWABBJYABHEFhJ6m0WP0DMEQNIr9AKrN8ne2Tt3Zs7MOdOZmRBEv+v34Tvub9R6fdNlAzU+snSME/wdjbjbbJ6EiEg6BA8102QbjKNpoMzw8v6qD/sOALbbT2MC1NgaAWOKOgxf5czY+4dbAX2G/THzcozLrvPV85IQyqVz0rvg2p9Pei4HjzSsiFbV4JgyhhxCjpGdZ0RhdikLB9/b8Qig7MkpSovR7Cp59q6CazaNFiTt4J82o6uvdMVwTsztKTXZod4jgOJJuqNAjFyGrBR8gM6XwKfIC4KanBSTZ0rClKh08D9DFh3egW7ebH7NcRDQWrz9rM2Ne+mDOXB2mZJ8agL19nwxR2iZXGm1gDbQKhDjd4yHb2oW/KR8xHicAAAAAElFTkSuQmCC" alt="" width="16" height="11" style="width: 16px; height: 11px;" /><span style="margin-left:0.3em;">Deutsch</span></a></li>
+</ul>
+</div><div id="custom_html-4" class="widget_text widget widget_custom_html"><div class="widget-title block-head block-head-ac block-head block-head-ac block-head-c is-left has-style"><h5 class="heading">Examen Checkpoint CCNA v7</h5></div><div class="textwidget custom-html-widget"><div class="tab_widget wp_shortcodes_tabs"><ul class="wps_tabs"><li><a href="#" data-tab="tab-0-ccna-1">CCNA 1</a></li><li><a href="#" data-tab="tab-1-ccna-2">CCNA 2</a></li><li><a href="#" data-tab="tab-2-ccna-3">CCNA 3</a></li></ul><div class="tab_container"><div id="tab-0-ccna-1" class="tab_content clearfix"><table><tbody>
+<tr>
+<td><a title="Examen Checkpoint: Examen sur la connectivité des réseaux de base et les communications Français" href="https://ccnareponses.com/modules-1-3-examen-sur-la-connectivite-des-reseaux-de-base-et-les-communications-reponses/">Modules 1 – 3 Examen Checkpoint: Examen sur la connectivité des réseaux de base et les communications</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen sur les concepts d'Ethernet Français" href="https://ccnareponses.com/modules-4-7-examen-sur-les-concepts-dethernet-reponses/">Modules 4 – 7 Examen Checkpoint: Examen sur les concepts d’Ethernet</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen sur la communication entre les réseaux Réponses Français" href="https://ccnareponses.com/modules-8-10-examen-sur-la-communication-entre-les-reseaux-reponses/">Modules 8 – 10 Examen Checkpoint: Examen sur la communication entre les réseaux</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen sur l’adressage IP Réponses Français" href="https://ccnareponses.com/modules-11-13-examen-sur-ladressage-ip-reponses/">Modules 11 – 13 Examen Checkpoint: Examen sur l’adressage IP</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen sur les communications des applications du réseau Réponses Français" href="https://ccnareponses.com/modules-14-15-examen-sur-les-communications-des-applications-du-reseau-reponses/">Modules 14 – 15 Examen Checkpoint: Examen sur les communications des applications du réseau</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen sur la création et la sécurisation d’un réseau de petit taille Réponses Français" href="https://ccnareponses.com/modules-16-17-examen-sur-la-creation-et-la-securisation-dun-reseau-de-petit-taille-reponses/">Modules 16 – 17 Examen Checkpoint: Examen sur la création et la sécurisation d’un réseau de petit taille</a></td>
+</tr>
+<tr>
+<td><a title="ITNv7 Practice Final Exam – Examen blanc final Réponses Français" href="https://ccnareponses.com/itnv7-practice-final-exam-examen-blanc-final-reponses-francais/"><strong style="color: #b400ca;">ITNv7 Practice Final Exam – Examen blanc final</strong></a></td>
+</tr>
+<tr>
+<td><a title="ITN (Version 7.00) - CCNA 1 Examen final du cours ITNv7 Questions et Réponses Français" href="https://ccnareponses.com/ccna-1-examen-final-itnv7-questions-et-reponses-francais/"><strong style="color: #ff0000;">CCNA 1 Examen final du cours ITNv7</strong></a></td>
+</tr>
+</tbody>
+</table></div><div id="tab-1-ccna-2" class="tab_content clearfix"><table><tbody>
+<tr>
+<td><a title="Examen Checkpoint: Examen des Concepts de Commutation, des VLAN et du Routage Inter-VLAN Réponses" href="https://ccnareponses.com/modules-1-4-examen-de-conceptos-de-conmutacion-vlan-y-enrutamiento-entre-vlan-reponses/">Modules 1 - 4 Examen Checkpoint: Examen des Concepts de Commutation, des VLAN et du Routage Inter-VLAN</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen de Réseaux Redondants Réponses" href="https://ccnareponses.com/modules-5-6-examen-de-reseaux-redondants-reponses/">Modules 5 - 6 Examen Checkpoint: Examen de Réseaux Redondants</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen des réseaux disponibles et fiables Réponses" href="https://ccnareponses.com/modules-7-9-examen-des-reseaux-disponibles-et-fiables-reponses/">Modules 7 - 9 Examen Checkpoint: Examen des réseaux disponibles et fiables</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen de sécurité de couche 2 et de réseau sans fil (WLAN) Réponses" href="https://ccnareponses.com/modules-10-13-examen-de-securite-de-couche-2-et-de-reseau-sans-fil-wlan-reponses/">Modules 10 - 13 Examen Checkpoint: Examen de sécurité de couche 2 et de réseau sans fil (WLAN)</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Concepts de Routage et Examen de Configuration Réponses" href="https://ccnareponses.com/modules-14-16-concepts-de-routage-et-examen-de-configuration-reponses/">Modules 14 - 16 Examen Checkpoint: Concepts de Routage et Examen de Configuration</a></td>
+</tr>
+<tr>
+<td><a title="SRWEv7 Practice Final Exam – Examen blanc final Réponses Français" href="https://ccnareponses.com/srwev7-practice-final-exam-examen-blanc-final-reponses-francais/"><strong style="color: #b400ca;">SRWEv7 Practice Final Exam – Examen blanc final</strong></a></td>
+</tr>
+<tr>
+<td><a title="CCNA 2 Examen final du cours SRWEv7 Questions et Réponses Français" href="https://ccnareponses.com/ccna-2-examen-final-de-cours-srwe-v7-0-questions-reponses/"><strong style="color: #ff0000;">CCNA 2 Examen final du cours SRWEv7</strong></a></td>
+</tr>
+</tbody>
+</table></div><div id="tab-2-ccna-3" class="tab_content clearfix"><table><tbody>
+<tr>
+<td><a title="Examen Checkpoint: Concepts et examen de configuration de l'OSPF Réponses" href="https://ccnareponses.com/modules-1-2-concepts-et-examen-de-configuration-de-lospf-reponses/">Modules 1 – 2 Examen Checkpoint: Concepts et examen de configuration de l’OSPF</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen de la sécurité des réseaux Réponses" href="https://ccnareponses.com/modules-3-5-examen-de-la-securite-des-reseaux-reponses/">Modules 3 – 5 Examen Checkpoint: Examen de la sécurité des réseaux</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen des concepts WAN Réponses" href="https://ccnareponses.com/modules-6-8-examen-des-concepts-wan/">Modules 6 – 8 Examen Checkpoint: Examen des concepts WAN</a></td>
+</tr>
+<tr>
+<td><a title="Enterprise Networking, Security, and Automation ( Version 7.00) - Exame de Otimização, Monitoramento e Solução de Problemas de Redes Réponses" href="https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/">Modules 9 – 12 Examen Checkpoint: Examen d’optimisation, de surveillance et de dépannage des réseaux</a></td>
+</tr>
+<tr>
+<td><a title="Examen Checkpoint: Examen des technologies de réseau émergentes Réponses" href="https://ccnareponses.com/modules-13-14-examen-des-technologies-de-reseau-emergentes-reponses/">Modules 13 – 14 Examen Checkpoint: Examen des technologies de réseau émergentes</a></td>
+</tr>
+<tr>
+<td><a title="ENSAv7 Practice Final Exam – Examen blanc final Réponses Français" href="https://ccnareponses.com/ensav7-practice-final-exam-examen-blanc-final-reponses-francais/"><strong style="color: #b400ca;">ENSAv7 Practice Final Exam – Examen blanc final</strong></a></td>
+</tr>
+<tr>
+<td><a title="CCNA 3 Examen final du cours ENSAv7 Questions et Réponses Français" href="https://ccnareponses.com/ccna-3-examen-final-ensav7-questions-et-reponses-francais/"><strong style="color: #ff0000;">CCNA 3 Examen final du cours ENSAv7</strong></a></td>
+</tr>
+<tr>
+<td><a title="Examen blanc de certification CCNA (200-301) Réponses" href="https://ccnareponses.com/ccna-3-v7-0-examen-blanc-de-certification-ccna-200-301/"><strong style="color: #1c6fec;">Examen blanc de certification CCNA (200-301)</strong></a></td>
+</tr>
+</tbody>
+</table></div></div></div><div class="clear"></div></div></div>		</div>
+	
+	</aside>
+	
+</div>
+	</div>
+
+			<footer data-rocket-location-hash="31598451fafda7875ac07e0995846628" class="main-footer cols-gap-lg footer-classic s-dark">
+
+					
+	
+			<div data-rocket-location-hash="620f0475af833e59a117afdced4f1907" class="lower-footer classic-footer-lower">
+			<div class="ts-contain wrap">
+				<div class="inner">
+
+					<div class="copyright">
+						&copy; 2026 ccnareponses.					</div>
+					
+									</div>
+			</div>
+		</div>		
+			</footer>
+		
+	
+</div><!-- .main-wrap -->
+
+
+
+	<div data-rocket-location-hash="78df1e3fc9410c52f1657b5b5cc7554b" class="search-modal-wrap" data-scheme="dark">
+		<div data-rocket-location-hash="321dafc96afe07223eccc14d7e905954" class="search-modal-box" role="dialog" aria-modal="true">
+
+			<form method="get" class="search-form" action="https://ccnareponses.com/">
+				<input type="search" class="search-field live-search-query" name="s" placeholder="Search..." value="" required />
+
+				<button type="submit" class="search-submit visuallyhidden">Submit</button>
+
+				<p class="message">
+					Type above and press <em>Enter</em> to search. Press <em>Esc</em> to cancel.				</p>
+						
+			</form>
+
+		</div>
+	</div>
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/smart-mag/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+            <script>
+                jQuery(function($){
+
+                    
+                                    });
+            </script>
+            <div data-rocket-location-hash="e5218ff96707bac56abb94192ab08c21" id="fb-root"></div>
+                    <style>
+
+            .wpdm-popover {
+                transition: all ease-in-out 400ms;
+                position: relative;display: inline-block;
+            }
+
+            .wpdm-popover .wpdm-hover-card {
+                position: absolute;
+                left: 0;
+                bottom: 50px;
+                width: 100%;
+                transition: all ease-in-out 400ms;
+                margin-bottom: 28px;
+                opacity: 0;
+                z-index: -999999;
+            }
+
+            .wpdm-popover:hover .wpdm-hover-card {
+                transition: all ease-in-out 400ms;
+                opacity: 1;
+                z-index: 999999;
+                bottom: 0px;
+            }
+
+            .wpdm-popover .wpdm-hover-card.hover-preview img {
+                width: 104px;
+                border-radius: 3px;
+            }
+
+            .wpdm-popover .card .card-footer{
+                background: rgba(0,0,0,0.02);
+            }
+
+            .packinfo {
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 14px;
+            }
+        </style>
+        <script>
+            jQuery(function ($) {
+                $('a[data-show-on-hover]').on('hover', function () {
+                    $($(this).data('show-on-hover')).fadeIn();
+                });
+            });
+        </script>
+        <span aria-hidden="true" id="to_top_scrollup" class="dashicons dashicons-arrow-up-alt2" style="right:20px;bottom:200px;"><span class="screen-reader-text">Défiler vers le haut</span></span><div id="grow-wp-data" data-grow='{&quot;content&quot;:{&quot;ID&quot;:2244,&quot;categories&quot;:[{&quot;ID&quot;:5}]}}'></div><script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Article","headline":"Modules 9 &#8211; 12: Examen d&rsquo;optimisation, de surveillance et de d\u00e9pannage des r\u00e9seaux R\u00e9ponses","url":"https:\/\/ccnareponses.com\/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses\/","image":{"@type":"ImageObject","url":"https:\/\/ccnareponses.com\/wp-content\/uploads\/2022\/05\/2022-05-09_221020.jpg","width":475,"height":319},"datePublished":"2022-05-09T17:13:32+02:00","dateModified":"2024-12-22T09:06:43+01:00","author":{"@type":"Person","name":"CCNA Fran\u00e7ais","url":"https:\/\/ccnareponses.com\/author\/adminfr\/"},"publisher":{"@type":"Organization","name":"CCNA R\u00e9ponses - Questions et r\u00e9ponses aux Examens","sameAs":"https:\/\/ccnareponses.com","logo":{"@type":"ImageObject","url":"https:\/\/ccnareponses.com\/wp-content\/uploads\/2026\/03\/CCNA-reponses-logo-NEW-1-300x35-1.png"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/ccnareponses.com\/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses\/"}}</script>
+<script type="application/ld+json" id="slim-seo-schema">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://ccnareponses.com/#website","url":"https://ccnareponses.com/","name":"CCNA Réponses - Questions et réponses aux Examens","description":"CCNA v7 Réponses","inLanguage":"fr-FR","potentialAction":{"@id":"https://ccnareponses.com/#searchaction"},"publisher":{"@id":"https://ccnareponses.com/#organization"}},{"@type":"SearchAction","@id":"https://ccnareponses.com/#searchaction","target":"https://ccnareponses.com/?s={search_term_string}","query-input":"required name=search_term_string"},{"@type":"BreadcrumbList","name":"Fil d’Ariane","@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#breadcrumblist","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://ccnareponses.com/"},{"@type":"ListItem","position":2,"name":"CCNA 3","item":"https://ccnareponses.com/ccna-3/"},{"@type":"ListItem","position":3,"name":"Modules 9 – 12: Examen d’optimisation, de surveillance et de dépannage des réseaux Réponses"}]},{"@type":"WebPage","@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#webpage","url":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/","inLanguage":"fr-FR","name":"Modules 9 - 12: Examen d'optimisation, de surveillance et de dépannage des réseaux Réponses","description":"Examen Checkpoint: optimisation, de surveillance et de dépannage. Modules 9 et 12 du programme d'études CCNA3 - Mise en réseau, sécurité et automatisation des entreprises (ENSA) v7.0 Réponses Français","datePublished":"2022-05-09T17:13:32+02:00","dateModified":"2024-12-22T09:06:43+01:00","isPartOf":{"@id":"https://ccnareponses.com/#website"},"breadcrumb":{"@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#breadcrumblist"},"potentialAction":{"@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#readaction"},"primaryImageOfPage":{"@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#thumbnail"},"image":{"@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#thumbnail"}},{"@type":"ReadAction","@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#readaction","target":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/"},{"@type":"Organization","@id":"https://ccnareponses.com/#organization","url":"https://ccnareponses.com/","name":"CCNA Réponses - Questions et réponses aux Examens"},{"@type":"ImageObject","@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#thumbnail","url":"https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020.jpg","contentUrl":"https://ccnareponses.com/wp-content/uploads/2022/05/2022-05-09_221020.jpg","width":475,"height":319},{"@type":"Article","@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#article","url":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/","headline":"Modules 9 - 12: Examen d'optimisation, de surveillance et de dépannage des réseaux Réponses","datePublished":"2022-05-09T17:13:32+02:00","dateModified":"2024-12-22T09:06:43+01:00","wordCount":5959,"articleSection":["CCNA 3"],"isPartOf":{"@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#webpage"},"mainEntityOfPage":{"@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#webpage"},"image":{"@id":"https://ccnareponses.com/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses/#thumbnail"},"publisher":{"@id":"https://ccnareponses.com/#organization"},"author":{"@id":"https://ccnareponses.com/#/schema/person/c4183c85a77b1917e5b10abcc1c3570e"}},{"@type":"Person","@id":"https://ccnareponses.com/#/schema/person/c4183c85a77b1917e5b10abcc1c3570e","url":"https://ccnareponses.com","name":"CCNA Français","givenName":"CCNA","familyName":"Français","image":"https://secure.gravatar.com/avatar/4ee63d62fec58affd8ab1e4cc507247facf5f07e11535c97676e2e874d356621?s=96&d=mm&r=g"}]}</script>			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<span id='wpdUserContentInfoAnchor' style='display:none;' rel='#wpdUserContentInfo' data-wpd-lity>wpDiscuz</span><div id='wpdUserContentInfo' style='overflow:auto;background:#FDFDF6;padding:20px;width:600px;max-width:100%;border-radius:6px;' class='lity-hide'></div><div id='wpd-editor-source-code-wrapper-bg'></div><div id='wpd-editor-source-code-wrapper'><textarea id='wpd-editor-source-code'></textarea><button id='wpd-insert-source-code'>Insert</button><input type='hidden' id='wpd-editor-uid' /></div><link data-minify="1" rel='stylesheet' id='mts_wpshortcodes-css' href='https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/wp-shortcode/css/wp-shortcode.css?ver=1776302408' type='text/css' media='all' />
+<script type="text/javascript" src="https://ccnareponses.com/wp-includes/js/jquery/jquery.form.min.js?ver=4.3.0" id="jquery-form-js"></script>
+<script type="text/javascript" id="pll_cookie_script-js-after">
+/* <![CDATA[ */
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=fr; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+
+//# sourceURL=pll_cookie_script-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://ccnareponses.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpdiscuz-combo-js-js-extra">
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"wc_hide_replies_text":"Masquer les r\u00e9ponses","wc_show_replies_text":"Voir les r\u00e9ponses","wc_msg_required_fields":"Veuillez remplir les champs obligatoires","wc_invalid_field":"Une partie du champ est invalide","wc_error_empty_text":"merci de compl\u00e9ter ce champ pour commenter","wc_error_url_text":"URL invalide","wc_error_email_text":"Adresse email invalide","wc_invalid_captcha":"Code Captcha invalide","wc_login_to_vote":"Vous devez \u00eatre connect\u00e9 pour voter","wc_deny_voting_from_same_ip":"Vous n\u2019\u00eates pas autoris\u00e9 \u00e0 voter pour ce commentaire","wc_self_vote":"Vous ne pouvez pas voter sur vos propres commentaires","wc_vote_only_one_time":"Vous avez d\u00e9j\u00e0 vot\u00e9 pour ce commentaire","wc_voting_error":"Erreur sur vote","wc_banned_user":"You are banned","wc_rate_limit_exceeded":"Too many requests. Please slow down.","wc_comment_edit_not_possible":"D\u00e9sol\u00e9, il n\u2019est plus possible de modifier ce commentaire","wc_comment_not_updated":"D\u00e9sol\u00e9, le commentaire n\u2019a pas \u00e9t\u00e9 mis \u00e0 jour","wc_comment_not_edited":"Vous n\u2019avez fait aucune modification","wc_msg_input_min_length":"L\u2019entr\u00e9e est trop courte","wc_msg_input_max_length":"L\u2019entr\u00e9e est trop longue","wc_spoiler_title":"Titre spoiler","wc_cannot_rate_again":"Vous ne pouvez pas \u00e9valuer \u00e0 nouveau","wc_not_allowed_to_rate":"Vous n\u2019\u00eates pas autoris\u00e9 \u00e0 voter ici","wc_confirm_rate_edit":"Are you sure you want to edit your rate?","wc_follow_user":"Suivre cet utilisateur","wc_unfollow_user":"Ne plus suivre cet utilisateur","wc_follow_success":"Vous avez commenc\u00e9 \u00e0 suivre cet auteur de commentaires","wc_follow_canceled":"Vous avez cess\u00e9 de suivre cet auteur de commentaire.","wc_follow_email_confirm":"Veuillez v\u00e9rifier vos e-mail et confirmer la demande de l\u2019utilisateur.","wc_follow_email_confirm_fail":"D\u00e9sol\u00e9, nous n\u2019avons pas pu envoyer l\u2019e-mail de confirmation.","wc_follow_login_to_follow":"Veuillez vous connecter pour suivre les utilisateurs.","wc_follow_impossible":"Nous sommes d\u00e9sol\u00e9s, mais vous ne pouvez pas suivre cet utilisateur.","wc_follow_not_added":"Le suivi a \u00e9chou\u00e9. Veuillez r\u00e9essayer plus tard.","is_user_logged_in":"","commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"60","liveUpdateGuests":"0","wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":"0","replyTextMaxLength":"0","commentTextMinLength":"1","replyTextMinLength":"1","storeCommenterData":"100000","socialLoginAgreementCheckbox":"1","enableFbLogin":"0","fbUseOAuth2":"0","enableFbShare":"0","facebookAppID":"","facebookUseOAuth2":"0","enableGoogleLogin":"0","googleClientID":"","googleClientSecret":"","cookiehash":"f5295cda6fecd4a118edb87c236b77a0","isLoadOnlyParentComments":"0","scrollToComment":"1","commentFormView":"collapsed","enableDropAnimation":"1","isNativeAjaxEnabled":"1","userInteractionCheck":"1","enableBubble":"0","bubbleLiveUpdate":"0","bubbleHintTimeout":"45","bubbleHintHideTimeout":"10","cookieHideBubbleHint":"wpdiscuz_hide_bubble_hint","bubbleHintShowOnce":"1","bubbleHintCookieExpires":"7","bubbleShowNewCommentMessage":"1","bubbleLocation":"content_left","firstLoadWithAjax":"0","wc_copied_to_clipboard":"Copied to clipboard!","inlineFeedbackAttractionType":"blink","loadRichEditor":"1","wpDiscuzReCaptchaSK":"","wpDiscuzReCaptchaTheme":"light","wpDiscuzReCaptchaVersion":"2.0","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","wpDiscuzIsShowOnSubscribeForm":"0","wmuEnabled":"1","wmuInput":"wmu_files","wmuMaxFileCount":"1","wmuMaxFileSize":"2097152","wmuPostMaxSize":"104857600","wmuIsLightbox":"1","wmuMimeTypes":{"jpg":"image/jpeg","jpeg":"image/jpeg","jpe":"image/jpeg","gif":"image/gif","png":"image/png","bmp":"image/bmp","tiff":"image/tiff","tif":"image/tiff","ico":"image/x-icon"},"wmuPhraseConfirmDelete":"Are you sure you want to delete this attachment?","wmuPhraseNotAllowedFile":"Type de fichier non autoris\u00e9","wmuPhraseMaxFileCount":"Le nombre maximum de fichiers qui peuvent \u00eatre upload\u00e9s est 1","wmuPhraseMaxFileSize":"La taille maximale du fichier qui peut \u00eatre upload\u00e9 est 2MB","wmuPhrasePostMaxSize":"La taille maximale de la publication est 100MB","wmuPhraseDoingUpload":"Uploading in progress! Please wait.","msgEmptyFile":"File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini.","msgPostIdNotExists":"ID de publication inexistante","msgUploadingNotAllowed":"Sorry, uploading not allowed for this post","msgPermissionDenied":"Vous n\u2019avez pas les droits suffisants pour effectuer cette action","wmuKeyImages":"images","wmuSingleImageWidth":"auto","wmuSingleImageHeight":"200","wmuIconVideo":"https://ccnareponses.com/wp-content/plugins/wpdiscuz/assets/img/file-icons/video-audio-type.png","wmuIconFile":"https://ccnareponses.com/wp-content/plugins/wpdiscuz/assets/img/file-icons/file-type.png","previewTemplate":"\u003Cdiv class=\"wmu-preview [PREVIEW_TYPE_CLASS]\" title=\"[PREVIEW_TITLE]\" data-wmu-type=\"[PREVIEW_TYPE]\" data-wmu-attachment=\"[PREVIEW_ID]\" data-wmu-index=\"[PREVIEW_INDEX]\"\u003E\r\n    \u003Cdiv class=\"wmu-preview-remove\"\u003E\r\n        \u003Cimg class=\"wmu-preview-img\" src=\"[PREVIEW_ICON]\"\u003E\r\n        \u003Cdiv class=\"wmu-file-name\"\u003E[PREVIEW_FILENAME]\u003C/div\u003E\r\n        \u003Cdiv class=\"wmu-preview-delete\" title=\"Delete\"\u003E\u2715\u003C/div\u003E\r\n        \u003Clabel class=\"wmu-preview-replace\" title=\"Replace\"\u003E\u21bb\u003Cinput type=\"file\" style=\"display:none\" class=\"wmu-replace-input\"\u003E\u003C/label\u003E\r\n    \u003C/div\u003E\r\n\u003C/div\u003E\r\n","isUserRated":"0","version":"7.6.54","wc_post_id":"2244","isCookiesEnabled":"1","loadLastCommentId":"0","dataFilterCallbacks":[],"phraseFilters":[],"scrollSize":"32","url":"https://ccnareponses.com/wp-admin/admin-ajax.php","customAjaxUrl":"https://ccnareponses.com/wp-content/plugins/wpdiscuz/utils/ajax/wpdiscuz-ajax.php","bubbleUpdateUrl":"https://ccnareponses.com/wp-json/wpdiscuz/v1/update","restNonce":"914191f6e7","is_rate_editable":"0","menu_icon":"https://ccnareponses.com/wp-content/plugins/wpdiscuz/assets/img/plugin-icon/wpdiscuz-svg.svg","menu_icon_hover":"https://ccnareponses.com/wp-content/plugins/wpdiscuz/assets/img/plugin-icon/wpdiscuz-svg_hover.svg","isUpdateNonceWithAjax":"1","nonceName":"wpdiscuz_nonce","postAttachmentsAsGallery":"","wmuPhraseNotAllowedFileType":"File type is not allowed","is_email_field_required":"1"};
+var wpdiscuzUCObj = {"msgConfirmDeleteComment":"\u00cates-vous s\u00fbr de vouloir supprimer ce commentaire\u00a0?","msgConfirmCancelSubscription":"\u00cates-vous s\u00fbr de vouloir annuler cet abonnement\u00a0?","msgConfirmCancelFollow":"Confirmez-vous vouloir annuler ce suivi\u00a0?","additionalTab":"0"};
+//# sourceURL=wpdiscuz-combo-js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="wpdiscuz-combo-js-js-before">
+/* <![CDATA[ */
+        var wpdiscuzEditorOptions = {
+        modules: {
+        toolbar: "",
+        counter: {
+        uniqueID: "",
+        commentmaxcount : 0,
+        replymaxcount : 0,
+        commentmincount : 1,
+        replymincount : 1,
+        },
+                },
+        wc_be_the_first_text: "Soyez le premier \u00e0 commenter\u00a0!",
+        wc_comment_join_text: "Rejoindre la discussion",
+        theme: 'snow',
+        debug: 'error'
+        };
+        
+//# sourceURL=wpdiscuz-combo-js-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://ccnareponses.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.6.54" id="wpdiscuz-combo-js-js"></script>
+<script data-minify="1" type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/themes/smart-mag/js/jquery.mfp-lightbox.js?ver=1776302393" id="magnific-popup-js"></script>
+<script data-minify="1" type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/themes/smart-mag/js/jquery.sticky-sidebar.js?ver=1776302393" id="theia-sticky-sidebar-js"></script>
+<script type="text/javascript" id="smartmag-theme-js-extra">
+/* <![CDATA[ */
+var Bunyad = {"ajaxurl":"https://ccnareponses.com/wp-admin/admin-ajax.php"};
+//# sourceURL=smartmag-theme-js-extra
+/* ]]> */
+</script>
+<script data-minify="1" type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/themes/smart-mag/js/theme.js?ver=1776302393" id="smartmag-theme-js"></script>
+<script type="text/javascript" src="https://ccnareponses.com/wp-includes/js/comment-reply.min.js?ver=b6451f6a787397382a66ce86af772bff" id="comment-reply-js" async="async" data-wp-strategy="async" fetchpriority="low"></script>
+<script data-minify="1" defer type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/akismet/_inc/akismet-frontend.js?ver=1776302414" id="akismet-frontend-js"></script>
+<script data-minify="1" type="text/javascript" src="https://ccnareponses.com/wp-content/cache/min/1/wp-content/plugins/wp-shortcode/js/wp-shortcode.js?ver=1776302408" id="mts_wpshortcodes-js"></script>
+<script data-grow-initializer="">!(function(){window.growMe||((window.growMe=function(e){window.growMe._.push(e);}),(window.growMe._=[]));var e=document.createElement("script");(e.type="text/javascript"),(e.src="https://faves.grow.me/main.js"),(e.defer=!0),e.setAttribute("data-grow-faves-site-id","U2l0ZTozYWUxYjJlZi1iYjJjLTQwMzAtOGZmYS02NjE4ODU1ZTJjMmQ=");var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t);})();</script>
+<script>var rocket_beacon_data = {"ajax_url":"https:\/\/ccnareponses.com\/wp-admin\/admin-ajax.php","nonce":"efabafa6eb","url":"https:\/\/ccnareponses.com\/modules-9-12-examen-doptimisation-de-surveillance-et-de-depannage-des-reseaux-reponses","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true,"preconnect_external_domain":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800,"preconnect_external_domain_elements":["link","script","iframe"],"preconnect_external_domain_exclusions":["static.cloudflareinsights.com","rel=\"profile\"","rel=\"preconnect\"","rel=\"dns-prefetch\"","rel=\"icon\""]}</script><script data-name="wpr-wpr-beacon" src='https://ccnareponses.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async></script></body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1776303180 -->

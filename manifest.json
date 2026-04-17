@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Auto-Répondeur Quiz",
+  "version": "1.0",
+  "description": "Trouve les réponses et débloque le clic droit.",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["database/database.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "commands": {
+    "chercher-reponse-raccourci": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Chercher la réponse pour le texte sélectionné"
+    }
+  }
+}
