@@ -44,7 +44,7 @@ Puis ajouter l'extension en cliquant sur "Load unpacked" et charger le dossier (
 
 Une fois les 2 extensions requises installées, recharger la page Netacad, puis sélectionner la question et 2 options possibles : 
 - Soit faire clic droit et cliquer sur "Chercher la réponse pour: xxx"
-- Soit faire la macro Ctrl + Shift + Y pour exécuter l'extension directement
+- Soit faire la macro Ctrl + Shift + S pour exécuter l'extension directement
 
 
 
