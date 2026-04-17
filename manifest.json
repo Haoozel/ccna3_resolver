@@ -24,7 +24,7 @@
   "commands": {
     "chercher-reponse-raccourci": {
       "suggested_key": {
-        "default": "Ctrl+Shift+Y",
+        "default": "Ctrl+Shift+S",
         "mac": "Command+Shift+Y"
       },
       "description": "Chercher la réponse pour le texte sélectionné"
