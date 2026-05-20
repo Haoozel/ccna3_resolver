@@ -11,7 +11,6 @@ Uniquement la version anglaise pour le CCNA2.
 > Certaines questions sont manquantes dans la version française -> fortement conseillé d'utiliser la version anglaise.
 
 ## Structure du projet 
-<<<<<<< HEAD
 ```
 .
 ├── manifest.json         # Configuration de l'extension
