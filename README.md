@@ -10,13 +10,20 @@ Supporte les versions Française et Anglaise du CCNA3
 > Certaines questions sont manquantes dans la version française
 
 ## Structure du projet 
+<<<<<<< HEAD
 ```
+=======
+>>>>>>> b1a1822 (update ccna2 eng)
 .
 ├── manifest.json         # Configuration de l'extension
 ├── background.js        # Logique de recherche et gestion des raccourcis
 └── database/           # Dossier contenant vos fichiers .html et le .json final
   └── database.json    # Fichier contenant les questions/réponses
+<<<<<<< HEAD
 ```
+=======
+
+>>>>>>> b1a1822 (update ccna2 eng)
 ## Installation
 
 ### Prérequis
@@ -44,7 +51,11 @@ Puis ajouter l'extension en cliquant sur "Load unpacked" et charger le dossier (
 
 Une fois les 2 extensions requises installées, recharger la page Netacad, puis sélectionner la question et 2 options possibles : 
 - Soit faire clic droit et cliquer sur "Chercher la réponse pour: xxx"
+<<<<<<< HEAD
 - Soit faire la macro Ctrl + Shift + S pour exécuter l'extension directement
+=======
+- Soit faire la macro Ctrl + Shift + Y pour exécuter l'extension directement
+>>>>>>> b1a1822 (update ccna2 eng)
 
 
 

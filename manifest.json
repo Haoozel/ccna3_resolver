@@ -24,7 +24,11 @@
   "commands": {
     "chercher-reponse-raccourci": {
       "suggested_key": {
+<<<<<<< HEAD
         "default": "Ctrl+Shift+S",
+=======
+        "default": "Ctrl+Shift+Y",
+>>>>>>> b1a1822 (update ccna2 eng)
         "mac": "Command+Shift+Y"
       },
       "description": "Chercher la réponse pour le texte sélectionné"
